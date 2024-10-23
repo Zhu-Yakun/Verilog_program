@@ -1,0 +1,578 @@
+
+*** Running vivado
+    with args -log Top.vds -m64 -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13148 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 305.426 ; gain = 98.309
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top' [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-638] synthesizing module 'keyboard' [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/keyboard.v:23]
+INFO: [Synth 8-256] done synthesizing module 'keyboard' (1#1) [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/keyboard.v:23]
+WARNING: [Synth 8-689] width (9) of port connection 'key_ascii' does not match port width (8) of module 'keyboard' [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/top.v:56]
+INFO: [Synth 8-638] synthesizing module 'Divider' [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/Divider.v:23]
+	Parameter N bound to: 100000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider' (2#1) [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/Divider.v:23]
+INFO: [Synth 8-638] synthesizing module 'Display' [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/display7.v:22]
+INFO: [Synth 8-256] done synthesizing module 'Display' (3#1) [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/display7.v:22]
+INFO: [Synth 8-638] synthesizing module 'LED' [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/LED.v:23]
+INFO: [Synth 8-256] done synthesizing module 'LED' (4#1) [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/LED.v:23]
+INFO: [Synth 8-638] synthesizing module 'Game' [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/game.v:22]
+INFO: [Synth 8-638] synthesizing module 'Vga_display' [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/Vga_display.v:27]
+	Parameter PAL bound to: 640 - type: integer 
+	Parameter LAF bound to: 480 - type: integer 
+	Parameter PLD bound to: 800 - type: integer 
+	Parameter LFD bound to: 521 - type: integer 
+	Parameter HPW bound to: 96 - type: integer 
+	Parameter HFP bound to: 16 - type: integer 
+	Parameter VPW bound to: 2 - type: integer 
+	Parameter VFP bound to: 10 - type: integer 
+	Parameter UP_BOUND bound to: 10 - type: integer 
+	Parameter DOWN_BOUND bound to: 480 - type: integer 
+	Parameter LEFT_BOUND bound to: 20 - type: integer 
+	Parameter RIGHT_BOUND bound to: 630 - type: integer 
+	Parameter BLOCK_DOWN_first bound to: 105 - type: integer 
+	Parameter BLOCK_DOWN_second bound to: 70 - type: integer 
+	Parameter BLOCK_DOWN_third bound to: 35 - type: integer 
+	Parameter BLOCK_WIDTH bound to: 125 - type: integer 
+	Parameter ball_r bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Vga_display' (5#1) [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/Vga_display.v:27]
+INFO: [Synth 8-256] done synthesizing module 'Game' (6#1) [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/game.v:22]
+WARNING: [Synth 8-3848] Net lose in module/entity Top does not have driver. [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/top.v:108]
+INFO: [Synth 8-256] done synthesizing module 'Top' (7#1) [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 341.914 ; gain = 134.797
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin divider:rst to constant 0 [D:/vivado_projects/complex_work/complex_work.srcs/sources_1/new/top.v:106]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 341.914 ; gain = 134.797
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc]
+WARNING: [Vivado 12-507] No nets matched 'pause_IBUF'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sensor_cs'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sensor_sclk'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sensor_si'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sensor_so'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sensor_cs'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sensor_si'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sensor_so'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sensor_sclk'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst_n'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst_n'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'INT1'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'INT2'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'INT1'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'INT2'. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivado_projects/complex_work/complex_work.srcs/constrs_1/new/top_xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 646.184 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 646.184 ; gain = 439.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 646.184 ; gain = 439.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 646.184 ; gain = 439.066
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "key_ascii" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "break" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "key_info" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "temp" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "Vcnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "score" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Vcnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "score" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "Blue" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "to_left" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to_right" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 646.184 ; gain = 439.066
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 4     
+	   3 Input     10 Bit       Adders := 6     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               10 Bit    Registers := 8     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 12    
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 17    
+	   2 Input     10 Bit        Muxes := 14    
+	  13 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 20    
+	  11 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 50    
+	   2 Input      2 Bit        Muxes := 12    
+	   3 Input      2 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 95    
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module keyboard 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	  13 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module Divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+Module Display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  11 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module Vga_display 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 4     
+	   3 Input     10 Bit       Adders := 6     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 8     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     15 Bit        Muxes := 17    
+	   2 Input     10 Bit        Muxes := 14    
+	   2 Input      8 Bit        Muxes := 19    
+	   2 Input      3 Bit        Muxes := 50    
+	   2 Input      2 Bit        Muxes := 11    
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 89    
+	   5 Input      1 Bit        Muxes := 1     
+Module Game 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 646.184 ; gain = 439.066
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "hs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Vcnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vs" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "score" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP Red3, operation Mode is: A*B.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: Generating DSP Red3, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: Generating DSP Red3, operation Mode is: A*B.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: Generating DSP Red3, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: Generating DSP Red3, operation Mode is: A*B.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: Generating DSP Red3, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: Generating DSP Red3, operation Mode is: A*B.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: Generating DSP Red3, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+DSP Report: operator Red3 is absorbed into DSP Red3.
+INFO: [Synth 8-5546] ROM "keyboard_inst/key_info" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "keyboard_inst/break" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "divider/temp" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dis1/cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "to_left" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "to_right" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 646.184 ; gain = 439.066
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 646.184 ; gain = 439.066
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Vga_display | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Vga_display | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Vga_display | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Vga_display | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Vga_display | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Vga_display | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Vga_display | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Vga_display | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[0]' (FDRE) to 'game/VGA_Disp/up_pos_reg[0]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[1]' (FDSE) to 'game/VGA_Disp/up_pos_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/up_pos_reg[0]' (FDRE) to 'game/VGA_Disp/up_pos_reg[1]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/up_pos_reg[1]' (FDRE) to 'game/VGA_Disp/up_pos_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[2]' (FDSE) to 'game/VGA_Disp/up_pos_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[3]' (FDSE) to 'game/VGA_Disp/up_pos_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[4]' (FDRE) to 'game/VGA_Disp/up_pos_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[5]' (FDSE) to 'game/VGA_Disp/up_pos_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[6]' (FDRE) to 'game/VGA_Disp/up_pos_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[7]' (FDSE) to 'game/VGA_Disp/up_pos_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[8]' (FDSE) to 'game/VGA_Disp/up_pos_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/down_pos_reg[9]' (FDRE) to 'game/VGA_Disp/up_pos_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/up_pos_reg[2]' (FDRE) to 'game/VGA_Disp/up_pos_reg[3]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/up_pos_reg[3]' (FDRE) to 'game/VGA_Disp/up_pos_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/up_pos_reg[4]' (FDSE) to 'game/VGA_Disp/up_pos_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/up_pos_reg[5]' (FDRE) to 'game/VGA_Disp/up_pos_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/up_pos_reg[6]' (FDRE) to 'game/VGA_Disp/up_pos_reg[9]'
+INFO: [Synth 8-3886] merging instance 'game/VGA_Disp/up_pos_reg[7]' (FDSE) to 'game/VGA_Disp/up_pos_reg[8]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\game/VGA_Disp/up_pos_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game/VGA_Disp/up_pos_reg[9] )
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[0]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[0]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[4]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[1]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[1]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[2]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[2]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[3]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[4]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[5]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[6]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[7]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[8]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/down_pos_reg[9]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[3]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[5]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[7]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[6]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[9]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (game/VGA_Disp/up_pos_reg[8]) is unused and will be removed from module Top.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 646.184 ; gain = 439.066
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 646.184 ; gain = 439.066
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 670.344 ; gain = 463.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 670.344 ; gain = 463.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     3|
+|2     |CARRY4  |    76|
+|3     |DSP48E1 |     6|
+|4     |LUT1    |   130|
+|5     |LUT2    |   165|
+|6     |LUT3    |    50|
+|7     |LUT4    |   116|
+|8     |LUT5    |    84|
+|9     |LUT6    |   115|
+|10    |MUXF7   |     1|
+|11    |FDRE    |   175|
+|12    |FDSE    |    31|
+|13    |IBUF    |     4|
+|14    |OBUF    |    27|
++------+--------+------+
+
+Report Instance Areas: 
++------+----------------+------------+------+
+|      |Instance        |Module      |Cells |
++------+----------------+------------+------+
+|1     |top             |            |   983|
+|2     |  dis1          |Display     |   105|
+|3     |  divider       |Divider     |   116|
+|4     |  game          |Game        |   678|
+|5     |    VGA_Disp    |Vga_display |   678|
+|6     |  keyboard_inst |keyboard    |    50|
++------+----------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 699.535 ; gain = 168.508
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 699.535 ; gain = 492.418
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 26 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+78 Infos, 38 Warnings, 15 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 699.535 ; gain = 476.102
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 699.535 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 14 01:06:10 2024...

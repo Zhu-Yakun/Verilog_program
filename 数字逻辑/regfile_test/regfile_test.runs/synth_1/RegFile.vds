@@ -1,0 +1,374 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon May 20 18:07:08 2024
+# Process ID: 23324
+# Current directory: D:/vivado_projects/regfile_test/regfile_test.runs/synth_1
+# Command line: vivado.exe -log RegFile.vds -mode batch -messageDb vivado.pb -notrace -source RegFile.tcl
+# Log file: D:/vivado_projects/regfile_test/regfile_test.runs/synth_1/RegFile.vds
+# Journal file: D:/vivado_projects/regfile_test/regfile_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source RegFile.tcl -notrace
+Command: synth_design -top RegFile -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22824 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 305.516 ; gain = 98.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/vivado_projects/regfile_test/regfile_test.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (1#1) [D:/vivado_projects/regfile_test/regfile_test.srcs/sources_1/new/RegFile.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 342.074 ; gain = 134.664
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 342.074 ; gain = 134.664
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivado_projects/regfile_test/regfile_test.srcs/constrs_1/new/reg_test.xdc]
+Finished Parsing XDC File [D:/vivado_projects/regfile_test/regfile_test.srcs/constrs_1/new/reg_test.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 646.086 ; gain = 0.023
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "array_reg_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[0]" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RegFile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 646.086 ; gain = 438.676
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\array_reg_reg[0][31] )
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][31]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][30]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][29]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][28]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][27]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][26]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][25]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][24]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][23]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][22]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][21]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][20]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][19]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][18]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][17]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][16]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][15]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][14]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][13]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][12]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][11]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][10]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][9]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][8]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][7]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][6]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][5]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][4]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][3]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][2]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][1]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][0]) is unused and will be removed from module RegFile.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 646.086 ; gain = 438.676
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 646.086 ; gain = 438.676
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |     4|
+|3     |LUT5  |    64|
+|4     |LUT6  |   543|
+|5     |MUXF7 |   256|
+|6     |FDRE  |   992|
+|7     |IBUF  |    51|
+|8     |OBUF  |    64|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  1975|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 646.086 ; gain = 438.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 32 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 646.086 ; gain = 114.676
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 646.086 ; gain = 438.676
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'RegFile' is not ideal for floorplanning, since the cellview 'RegFile' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+77 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 646.086 ; gain = 422.324
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 646.086 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 20 18:07:27 2024...

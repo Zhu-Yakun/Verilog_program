@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1699273044">
+  <File Type="ROUTE-STATUS-PB" Name="Asynchronous_D_FF_route_status.pb"/>
+  <File Type="PA-TCL" Name="Asynchronous_D_FF.tcl"/>
+  <File Type="OPT-DCP" Name="Asynchronous_D_FF_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="Asynchronous_D_FF_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Asynchronous_D_FF_methodology_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="Asynchronous_D_FF.vdi"/>
+  <File Type="PWROPT-DRC" Name="Asynchronous_D_FF_drc_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="Asynchronous_D_FF_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Asynchronous_D_FF_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="Asynchronous_D_FF.hwdef"/>
+  <File Type="OPT-TIMING" Name="Asynchronous_D_FF_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Asynchronous_D_FF_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Asynchronous_D_FF_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Asynchronous_D_FF_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Asynchronous_D_FF_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Asynchronous_D_FF_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Asynchronous_D_FF_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Asynchronous_D_FF_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Asynchronous_D_FF_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Asynchronous_D_FF_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Asynchronous_D_FF_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Asynchronous_D_FF_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Asynchronous_D_FF_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Asynchronous_D_FF_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Asynchronous_D_FF_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Asynchronous_D_FF_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="Asynchronous_D_FF_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Asynchronous_D_FF_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Asynchronous_D_FF_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Asynchronous_D_FF_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Asynchronous_D_FF_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Asynchronous_D_FF_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="Asynchronous_D_FF.bit"/>
+  <File Type="ROUTE-PWR" Name="Asynchronous_D_FF_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Asynchronous_D_FF_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Asynchronous_D_FF_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Asynchronous_D_FF_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Asynchronous_D_FF_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Asynchronous_D_FF_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Asynchronous_D_FF_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Asynchronous_D_FF_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Asynchronous_D_FF_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Asynchronous_D_FF_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Asynchronous_D_FF_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Asynchronous_D_FF_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Asynchronous_D_FF_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Asynchronous_D_FF_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="Asynchronous_D_FF.bin"/>
+  <File Type="BITSTR-MSK" Name="Asynchronous_D_FF.msk"/>
+  <File Type="BITSTR-RBT" Name="Asynchronous_D_FF.rbt"/>
+  <File Type="BITSTR-NKY" Name="Asynchronous_D_FF.nky"/>
+  <File Type="BITSTR-BMM" Name="Asynchronous_D_FF_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Asynchronous_D_FF.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Asynchronous_D_FF.sysdef"/>
+  <File Type="BG-BGN" Name="Asynchronous_D_FF.bgn"/>
+  <File Type="BG-DRC" Name="Asynchronous_D_FF.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Asynchronous_D_FF.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Asynchronous_D_FF_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Asynchronous_D_FF"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/top_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

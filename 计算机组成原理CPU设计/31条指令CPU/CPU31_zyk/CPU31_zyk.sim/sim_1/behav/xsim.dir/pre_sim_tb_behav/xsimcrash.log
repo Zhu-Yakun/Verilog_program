@@ -1,0 +1,43 @@
+Unable to capture context for thread 16212 in process 24780, can not generate back trace
+Unable to capture context for thread 35440 in process 24780, can not generate back trace
+Unable to capture context for thread 16188 in process 24780, can not generate back trace
+Unable to capture context for thread 28600 in process 24780, can not generate back trace
+Unable to capture context for thread 3300 in process 24780, can not generate back trace
+Exception at PC 0x00007FFCD29DBB93
+Printing stacktrace...
+
+Unable to capture context for thread 16212 in process 24780, can not generate back trace
+Unable to capture context for thread 16188 in process 24780, can not generate back trace
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+[0]  [0x00007FFCD29DBB93]
+[1]  [0x00007FFCD29DBB93]
+[2]  [0x00007FFCD29DB4A1]
+[3]  [0x00007FFCD29DB459]
+[4]  [0x00007FFCD29C19FE]
+[5]  [0x00007FFCD29C0ED1]
+[6]  [0x00007FFCD29C0D76]
+[7]  [0x00007FFCD29679F6]
+[8]  [0x00007FFCD2957AFB]
+[9]  [0x00007FFCD2A7E90A]
+[10]  [0x00007FFCD2A99F87]
+[11]  [0x00007FFCD2A9A05F]
+[12] (BaseThreadInitThunk+0x1d) [0x00007FFD9C69257D]
+[13] (RtlUserThreadStart+0x28) [0x00007FFD9E6AAA48]
+Done
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C
+Exception at PC 0x00007FFD9B9D543C

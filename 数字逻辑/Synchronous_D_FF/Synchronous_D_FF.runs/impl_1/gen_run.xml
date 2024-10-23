@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1699272340">
+  <File Type="PHYSOPT-DCP" Name="Synchronous_D_FF_physopt.dcp"/>
+  <File Type="PA-DCP" Name="Synchronous_D_FF.dcp"/>
+  <File Type="OPT-TIMING" Name="Synchronous_D_FF_timing_summary_opted.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Synchronous_D_FF_route_status.pb"/>
+  <File Type="PA-TCL" Name="Synchronous_D_FF.tcl"/>
+  <File Type="OPT-DCP" Name="Synchronous_D_FF_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="Synchronous_D_FF_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Synchronous_D_FF_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Synchronous_D_FF_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Synchronous_D_FF_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="Synchronous_D_FF.hwdef"/>
+  <File Type="PWROPT-DRC" Name="Synchronous_D_FF_drc_pwropted.rpt"/>
+  <File Type="RDI-RDI" Name="Synchronous_D_FF.vdi"/>
+  <File Type="PWROPT-TIMING" Name="Synchronous_D_FF_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Synchronous_D_FF_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Synchronous_D_FF_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Synchronous_D_FF_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Synchronous_D_FF_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Synchronous_D_FF_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Synchronous_D_FF_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Synchronous_D_FF_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Synchronous_D_FF_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Synchronous_D_FF_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Synchronous_D_FF_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Synchronous_D_FF_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Synchronous_D_FF_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Synchronous_D_FF_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="Synchronous_D_FF_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Synchronous_D_FF_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Synchronous_D_FF_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Synchronous_D_FF_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Synchronous_D_FF_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Synchronous_D_FF_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="Synchronous_D_FF.bit"/>
+  <File Type="ROUTE-PWR" Name="Synchronous_D_FF_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Synchronous_D_FF_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Synchronous_D_FF_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Synchronous_D_FF_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Synchronous_D_FF_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Synchronous_D_FF_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Synchronous_D_FF_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Synchronous_D_FF_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Synchronous_D_FF_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Synchronous_D_FF_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Synchronous_D_FF_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Synchronous_D_FF_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Synchronous_D_FF_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Synchronous_D_FF_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="Synchronous_D_FF.bin"/>
+  <File Type="BITSTR-MSK" Name="Synchronous_D_FF.msk"/>
+  <File Type="BITSTR-RBT" Name="Synchronous_D_FF.rbt"/>
+  <File Type="BITSTR-NKY" Name="Synchronous_D_FF.nky"/>
+  <File Type="BITSTR-BMM" Name="Synchronous_D_FF_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Synchronous_D_FF.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Synchronous_D_FF.sysdef"/>
+  <File Type="BG-BGN" Name="Synchronous_D_FF.bgn"/>
+  <File Type="BG-DRC" Name="Synchronous_D_FF.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Synchronous_D_FF.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Synchronous_D_FF_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Synchronous_D_FF"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/top_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

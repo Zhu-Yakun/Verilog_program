@@ -1,0 +1,41 @@
+# do {pre_sim_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L dist_mem_gen_v8_0_10 -L xil_defaultlib -lib xil_defaultlib xil_defaultlib.pre_sim_tb xil_defaultlib.glbl 
+# Start time: 14:30:55 on May 20,2024
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.pre_sim_tb
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading xil_defaultlib.IPcore
+# Loading dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10
+# Loading xil_defaultlib.DMEM
+# Loading xil_defaultlib.CPU
+# Loading xil_defaultlib.PCreg
+# Loading xil_defaultlib.RegFile
+# Loading xil_defaultlib.ALU
+# Loading xil_defaultlib.Controller
+# Loading xil_defaultlib.MUX_4X1_32
+# Loading xil_defaultlib.MUX_3X1_5
+# Loading xil_defaultlib.MUX_3X1_32
+# Loading xil_defaultlib.glbl
+# ** Warning: (vsim-3015) ../../../CPU31.srcs/sources_1/new/Controller.v(133): [PCDPC] - Port size (5) does not match connection size (32) for port 'iC2'. The port definition is at: ../../../CPU31.srcs/sources_1/new/MUX.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /pre_sim_tb/sc/sccpu/cpu_CONTROLLER/MUX_Rdc File: ../../../CPU31.srcs/sources_1/new/MUX.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 1048 of file "IPcore.mif". Expected 2048, found 1047.    : ../../../CPU31.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v(234)
+#    Time: 0 ps  Iteration: 0  Instance: /pre_sim_tb/sc/imem/inst
+# End time: 14:40:33 on May 20,2024, Elapsed time: 0:09:38
+# Errors: 0, Warnings: 2

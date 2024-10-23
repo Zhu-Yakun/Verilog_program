@@ -1,0 +1,49 @@
+# do {_246tb_ex10_tb_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 09:37:40 on Jul 19,2024
+# vlog -64 -incr -work xil_defaultlib _246tb_ex10_tb_time_synth.v ../../../../CPU54.srcs/sim_1/new/testbench_cpu54_single.v 
+# -- Compiling module RAM32M_UNIQ_BASE_
+# -- Compiling module RAM32M_HD1
+# -- Compiling module RAM32M_HD10
+# -- Compiling module RAM32M_HD11
+# -- Compiling module RAM32M_HD12
+# -- Compiling module RAM32M_HD13
+# -- Compiling module RAM32M_HD14
+# -- Compiling module RAM32M_HD15
+# -- Compiling module RAM32M_HD16
+# -- Compiling module RAM32M_HD17
+# -- Compiling module RAM32M_HD2
+# -- Compiling module RAM32M_HD3
+# -- Compiling module RAM32M_HD4
+# -- Compiling module RAM32M_HD5
+# -- Compiling module RAM32M_HD6
+# -- Compiling module RAM32M_HD7
+# -- Compiling module RAM32M_HD8
+# -- Compiling module RAM32M_HD9
+# -- Compiling module dist_mem_gen_1
+# -- Compiling module CP0
+# -- Compiling module DIV
+# -- Compiling module DMEM
+# -- Compiling module HI_LO
+# -- Compiling module IMEM
+# -- Compiling module MUL
+# -- Compiling module MUX
+# -- Compiling module MUX_0
+# -- Compiling module PC
+# -- Compiling module cpu
+# -- Compiling module regfile
+# -- Compiling module sccomp_dataflow
+# -- Compiling module dist_mem_gen_1_dist_mem_gen_v8_0_10
+# -- Compiling module glbl
+# -- Compiling module _246tb_ex10_tb
+# 
+# Top level modules:
+# 	glbl
+# 	_246tb_ex10_tb
+# End time: 09:37:41 on Jul 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

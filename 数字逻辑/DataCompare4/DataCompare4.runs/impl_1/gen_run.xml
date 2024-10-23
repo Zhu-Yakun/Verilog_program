@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1698666533">
+  <File Type="OPT-DCP" Name="DataCompare4_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="DataCompare4_route_status.pb"/>
+  <File Type="PA-TCL" Name="DataCompare4.tcl"/>
+  <File Type="RDI-RDI" Name="DataCompare4.vdi"/>
+  <File Type="PWROPT-DRC" Name="DataCompare4_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="DataCompare4_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="DataCompare4_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="DataCompare4_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="DataCompare4_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="DataCompare4.hwdef"/>
+  <File Type="OPT-TIMING" Name="DataCompare4_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="DataCompare4_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="DataCompare4_placed.dcp"/>
+  <File Type="PLACE-IO" Name="DataCompare4_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="DataCompare4_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="DataCompare4_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="DataCompare4_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="DataCompare4_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="DataCompare4_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="DataCompare4_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="DataCompare4_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="DataCompare4_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="DataCompare4_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="DataCompare4_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="DataCompare4_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="DataCompare4_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="DataCompare4_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="DataCompare4_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="DataCompare4_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="DataCompare4_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="DataCompare4_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="DataCompare4.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="DataCompare4_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="DataCompare4_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="DataCompare4_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="DataCompare4_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="DataCompare4_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="DataCompare4_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="DataCompare4_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="DataCompare4_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="DataCompare4_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="DataCompare4_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="DataCompare4_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="DataCompare4_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="DataCompare4_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="DataCompare4_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="DataCompare4_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="DataCompare4.bin"/>
+  <File Type="BITSTR-MSK" Name="DataCompare4.msk"/>
+  <File Type="BITSTR-RBT" Name="DataCompare4.rbt"/>
+  <File Type="BITSTR-NKY" Name="DataCompare4.nky"/>
+  <File Type="BITSTR-BMM" Name="DataCompare4_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="DataCompare4.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="DataCompare4.sysdef"/>
+  <File Type="BG-BGN" Name="DataCompare4.bgn"/>
+  <File Type="BG-DRC" Name="DataCompare4.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/DataCompare4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DataCompare4_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="DataCompare4"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/top_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

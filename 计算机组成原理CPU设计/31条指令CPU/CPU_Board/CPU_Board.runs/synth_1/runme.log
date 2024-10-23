@@ -1,0 +1,622 @@
+
+*** Running vivado
+    with args -log CPU_Board.vds -m64 -mode batch -messageDb vivado.pb -notrace -source CPU_Board.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source CPU_Board.tcl -notrace
+Command: synth_design -top CPU_Board -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12640 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 305.887 ; gain = 99.051
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CPU_Board' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/CPU_Board.v:23]
+INFO: [Synth 8-638] synthesizing module 'Divider' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/Divider.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Divider' (1#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/Divider.v:23]
+INFO: [Synth 8-638] synthesizing module 'sccomp_dataflow' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/sccomp_dataflow.v:23]
+INFO: [Synth 8-638] synthesizing module 'IPcore_Board' [D:/vivado_projects/CPU_Board/CPU_Board.runs/synth_1/.Xil/Vivado-22096-LAPTOP-PHQGBIQQ/realtime/IPcore_Board_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'IPcore_Board' (2#1) [D:/vivado_projects/CPU_Board/CPU_Board.runs/synth_1/.Xil/Vivado-22096-LAPTOP-PHQGBIQQ/realtime/IPcore_Board_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'DMEM' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/DMEM.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DMEM' (3#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/DMEM.v:23]
+INFO: [Synth 8-638] synthesizing module 'CPU' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/CPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'PCreg' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/PCreg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PCreg' (4#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/PCreg.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (5#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-226] default block is never used [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/ALU.v:35]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (6#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'Controller' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/Controller.v:23]
+	Parameter jalWaddr bound to: 31 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'MUX_4X1_32' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:55]
+INFO: [Synth 8-256] done synthesizing module 'MUX_4X1_32' (7#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:55]
+INFO: [Synth 8-638] synthesizing module 'MUX_3X1_5' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:31]
+INFO: [Synth 8-256] done synthesizing module 'MUX_3X1_5' (8#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX_3X1_32' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:39]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:47]
+INFO: [Synth 8-256] done synthesizing module 'MUX_3X1_32' (9#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:39]
+INFO: [Synth 8-256] done synthesizing module 'Controller' (10#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/Controller.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CPU' (11#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/CPU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sccomp_dataflow' (12#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/sccomp_dataflow.v:23]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/seg7x16.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/seg7x16.v:86]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (13#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/seg7x16.v:21]
+INFO: [Synth 8-256] done synthesizing module 'CPU_Board' (14#1) [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/CPU_Board.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 342.406 ; gain = 135.570
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 342.406 ; gain = 135.570
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'IPcore_Board' instantiated as 'my_sccomp_dataflow/imem' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/sccomp_dataflow.v:48]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivado_projects/CPU_Board/CPU_Board.runs/synth_1/.Xil/Vivado-22096-LAPTOP-PHQGBIQQ/dcp/IPcore_Board_in_context.xdc] for cell 'my_sccomp_dataflow/imem'
+Finished Parsing XDC File [D:/vivado_projects/CPU_Board/CPU_Board.runs/synth_1/.Xil/Vivado-22096-LAPTOP-PHQGBIQQ/dcp/IPcore_Board_in_context.xdc] for cell 'my_sccomp_dataflow/imem'
+Parsing XDC File [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc]
+WARNING: [Vivado 12-584] No ports matched 'inst[31]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'inst[30]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'inst[29]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'inst[28]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'inst[27]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:52]
+WARNING: [Vivado 12-584] No ports matched 'inst[26]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'inst[25]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:54]
+WARNING: [Vivado 12-584] No ports matched 'inst[24]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:55]
+WARNING: [Vivado 12-584] No ports matched 'inst[23]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:56]
+WARNING: [Vivado 12-584] No ports matched 'inst[22]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:57]
+WARNING: [Vivado 12-584] No ports matched 'inst[21]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:58]
+WARNING: [Vivado 12-584] No ports matched 'inst[20]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'inst[19]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'inst[18]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'inst[17]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'inst[16]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'inst[15]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'inst[14]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'inst[13]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:66]
+WARNING: [Vivado 12-584] No ports matched 'inst[12]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:67]
+WARNING: [Vivado 12-584] No ports matched 'inst[11]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:68]
+WARNING: [Vivado 12-584] No ports matched 'inst[10]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:69]
+WARNING: [Vivado 12-584] No ports matched 'inst[9]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:70]
+WARNING: [Vivado 12-584] No ports matched 'inst[8]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:71]
+WARNING: [Vivado 12-584] No ports matched 'inst[7]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:72]
+WARNING: [Vivado 12-584] No ports matched 'inst[6]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'inst[5]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:74]
+WARNING: [Vivado 12-584] No ports matched 'inst[4]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:75]
+WARNING: [Vivado 12-584] No ports matched 'inst[3]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'inst[2]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:77]
+WARNING: [Vivado 12-584] No ports matched 'inst[1]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:78]
+WARNING: [Vivado 12-584] No ports matched 'inst[0]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:79]
+WARNING: [Vivado 12-584] No ports matched 'pc[31]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:80]
+WARNING: [Vivado 12-584] No ports matched 'pc[30]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:81]
+WARNING: [Vivado 12-584] No ports matched 'pc[29]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:82]
+WARNING: [Vivado 12-584] No ports matched 'pc[28]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:83]
+WARNING: [Vivado 12-584] No ports matched 'pc[27]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:84]
+WARNING: [Vivado 12-584] No ports matched 'pc[26]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:85]
+WARNING: [Vivado 12-584] No ports matched 'pc[25]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:86]
+WARNING: [Vivado 12-584] No ports matched 'pc[24]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:87]
+WARNING: [Vivado 12-584] No ports matched 'pc[23]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:88]
+WARNING: [Vivado 12-584] No ports matched 'pc[22]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:89]
+WARNING: [Vivado 12-584] No ports matched 'pc[21]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:90]
+WARNING: [Vivado 12-584] No ports matched 'pc[20]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:91]
+WARNING: [Vivado 12-584] No ports matched 'pc[19]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:92]
+WARNING: [Vivado 12-584] No ports matched 'pc[18]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:93]
+WARNING: [Vivado 12-584] No ports matched 'pc[17]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:94]
+WARNING: [Vivado 12-584] No ports matched 'pc[16]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:95]
+WARNING: [Vivado 12-584] No ports matched 'pc[15]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:96]
+WARNING: [Vivado 12-584] No ports matched 'pc[14]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:97]
+WARNING: [Vivado 12-584] No ports matched 'pc[13]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:98]
+WARNING: [Vivado 12-584] No ports matched 'pc[12]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:99]
+WARNING: [Vivado 12-584] No ports matched 'pc[11]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:100]
+WARNING: [Vivado 12-584] No ports matched 'pc[10]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:101]
+WARNING: [Vivado 12-584] No ports matched 'pc[9]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:102]
+WARNING: [Vivado 12-584] No ports matched 'pc[8]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:103]
+WARNING: [Vivado 12-584] No ports matched 'pc[7]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:104]
+WARNING: [Vivado 12-584] No ports matched 'pc[6]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:105]
+WARNING: [Vivado 12-584] No ports matched 'pc[5]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:106]
+WARNING: [Vivado 12-584] No ports matched 'pc[4]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:107]
+WARNING: [Vivado 12-584] No ports matched 'pc[3]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:108]
+WARNING: [Vivado 12-584] No ports matched 'pc[2]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:109]
+WARNING: [Vivado 12-584] No ports matched 'pc[1]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:110]
+WARNING: [Vivado 12-584] No ports matched 'pc[0]'. [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc:111]
+Finished Parsing XDC File [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/CPU_Board_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivado_projects/CPU_Board/CPU_Board.srcs/constrs_1/new/icf.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CPU_Board_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CPU_Board_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 652.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 652.164 ; gain = 445.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 652.164 ; gain = 445.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 652.164 ; gain = 445.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count3" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "array_reg_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "cpu_BEQ" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_BNE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_J" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_JAL" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_SW" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_LW" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_ADDI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_ANDI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_ORI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_XORI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_SLTI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_SLTIU" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_LUI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_ADDIU" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "o_seg_r" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'zero_reg' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/ALU.v:67]
+WARNING: [Synth 8-327] inferring latch for variable 'carry_reg' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/ALU.v:37]
+WARNING: [Synth 8-327] inferring latch for variable 'negative_reg' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/ALU.v:72]
+WARNING: [Synth 8-327] inferring latch for variable 'overflow_reg' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/ALU.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'oZ_reg' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'oZ_reg' [D:/vivado_projects/CPU_Board/CPU_Board.srcs/sources_1/new/MUX.v:48]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 652.164 ; gain = 445.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
+	   3 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 34    
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	  14 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 84    
+	  15 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module DMEM 
+Detailed RTL Component Info : 
++---RAMs : 
+	             1024 Bit         RAMs := 1     
+Module RegFile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
+	   3 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	  14 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  15 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 6     
+Module MUX_4X1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module MUX_3X1_5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      5 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module MUX_3X1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 48    
+Module sccomp_dataflow 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module seg7x16 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 652.164 ; gain = 445.328
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_SLTI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_SLTIU" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_LW" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_SW" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_ADDI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_ADDIU" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_LUI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_ANDI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_ORI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_XORI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_JAL" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "sccpu/cpu_ALU/zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Divider_inst/count3" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Divider_inst/clk_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 652.164 ; gain = 445.328
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 652.164 ; gain = 445.328
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-----------------------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object                        | Inference | Size (Depth x Width) | Primitives      | 
++------------+-----------------------------------+-----------+----------------------+-----------------+
+|CPU_Board   | my_sccomp_dataflow/dmem/D_mem_reg | Implied   | 32 x 32              | RAM32X1S x 32   | 
++------------+-----------------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\show/o_seg_r_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_ALU/carry_reg) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_ALU/negative_reg) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_ALU/overflow_reg) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (show/o_seg_r_reg[7]) is unused and will be removed from module CPU_Board.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:30 . Memory (MB): peak = 652.164 ; gain = 445.328
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:30 . Memory (MB): peak = 652.164 ; gain = 445.328
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 655.652 ; gain = 448.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:37 . Memory (MB): peak = 668.258 ; gain = 461.422
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[4]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[3]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[2]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[1]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[0]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[31]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[30]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[29]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[28]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[27]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[26]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[25]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[24]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[23]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[22]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[21]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[20]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[19]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[18]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[17]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[16]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[15]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[14]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[13]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[12]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[11]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[10]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[9]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[8]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[7]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[6]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[5]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[4]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[3]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[2]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[1]) is unused and will be removed from module CPU_Board.
+WARNING: [Synth 8-3332] Sequential element (my_sccomp_dataflow/sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[0]) is unused and will be removed from module CPU_Board.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |IPcore_Board  |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |IPcore_Board |     1|
+|2     |BUFG         |     2|
+|3     |CARRY4       |    53|
+|4     |LUT1         |    82|
+|5     |LUT2         |   195|
+|6     |LUT3         |   138|
+|7     |LUT4         |   148|
+|8     |LUT5         |   169|
+|9     |LUT6         |  1083|
+|10    |MUXF7        |   286|
+|11    |RAM32X1S     |    32|
+|12    |FDCE         |    81|
+|13    |FDPE         |     8|
+|14    |FDRE         |  1057|
+|15    |LD           |     1|
+|16    |IBUF         |     2|
+|17    |OBUF         |    16|
++------+-------------+------+
+
+Report Instance Areas: 
++------+---------------------+----------------+------+
+|      |Instance             |Module          |Cells |
++------+---------------------+----------------+------+
+|1     |top                  |                |  3385|
+|2     |  Divider_inst       |Divider         |   113|
+|3     |  my_sccomp_dataflow |sccomp_dataflow |  3101|
+|4     |    dmem             |DMEM            |    70|
+|5     |    sccpu            |CPU             |  2999|
+|6     |      cpu_ALU        |ALU             |    20|
+|7     |      cpu_CONTROLLER |Controller      |    79|
+|8     |      cpu_PC         |PCreg           |    99|
+|9     |      cpu_ref        |RegFile         |  2801|
+|10    |  show               |seg7x16         |   150|
++------+---------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 47 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 707.480 ; gain = 161.801
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 707.480 ; gain = 500.645
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 88 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'CPU_Board' is not ideal for floorplanning, since the cellview 'RegFile' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 32 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 33 instances were transformed.
+  LD => LDCE: 1 instances
+  RAM32X1S => RAM32X1S (RAMS32): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+110 Infos, 114 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:36 . Memory (MB): peak = 707.480 ; gain = 476.176
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 707.480 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May 23 22:38:10 2024...

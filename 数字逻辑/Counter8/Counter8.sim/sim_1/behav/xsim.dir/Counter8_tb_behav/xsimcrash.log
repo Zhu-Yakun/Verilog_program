@@ -1,0 +1,40 @@
+Unable to capture context for thread 19312 in process 25808, can not generate back trace
+Unable to capture context for thread 32488 in process 25808, can not generate back trace
+Unable to capture context for thread 11612 in process 25808, can not generate back trace
+Exception at PC 0x00007FFA8B34565C
+Unable to capture context for thread 11612 in process 25808, can not generate back trace
+Exception at PC 0x00007FF9D652BB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+[0]  [0x00007FF9D652BB93]
+[1]  [0x00007FF9D652BB93]
+[2]  [0x00007FF9D652B4A1]
+[3]  [0x00007FF9D652B3EF]
+[4]  [0x00007FF9D65119FE]
+[5]  [0x00007FF9D6510ED1]
+[6]  [0x00007FF9D6510D76]
+[7]  [0x00007FF9D64B79F6]
+[8]  [0x00007FF9D64A7AFB]
+[9]  [0x00007FF9D65CE90A]
+[10]  [0x00007FF9D65E9F87]
+[11]  [0x00007FF9D65EA05F]
+[12] (BaseThreadInitThunk+0x1d) [0x00007FFA8C5C257D]
+[13] (RtlUserThreadStart+0x28) [0x00007FFA8DF4AA58]
+Done
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C
+Exception at PC 0x00007FFA8B34565C

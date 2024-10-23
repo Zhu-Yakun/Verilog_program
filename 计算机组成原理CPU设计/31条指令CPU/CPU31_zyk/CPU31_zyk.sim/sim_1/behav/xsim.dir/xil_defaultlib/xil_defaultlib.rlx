@@ -1,0 +1,13 @@
+0.4
+2016.2
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.sim/sim_1/behav/glbl.v,1464879896,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sim_1/new/pre_sim_tb.v,1716033736,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/ip/IPcore/sim/IPcore.v,1716035084,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/ALU.v,1715913789,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/CPU.v,1715914037,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/Controller.v,1715996068,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/DMEM.v,1715909808,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v,1715996032,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/PCreg.v,1715999860,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/RegFile.v,1716000196,verilog,,,,,,,,,,,
+D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/sccomp_dataflow.v,1716048694,verilog,,,,,,,,,,,

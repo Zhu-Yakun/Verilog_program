@@ -1,0 +1,522 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/vivado_projects/CPU31/CPU31.sim/sim_1/behav
+vALU
+Z1 !s110 1716186647
+!i10b 1
+!s100 ?WBo2X<84zcPLh4YBZPPB0
+IED4MNGAa1:kD<7a_:^BaP0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1715913789
+8../../../CPU31.srcs/sources_1/new/ALU.v
+F../../../CPU31.srcs/sources_1/new/ALU.v
+Z3 L0 23
+Z4 OP;L;10.4c;61
+r1
+!s85 0
+31
+Z5 !s108 1716186647.000000
+Z6 !s107 ../../../CPU31.srcs/sources_1/new/post_sim_tb.v|../../../CPU31.srcs/sources_1/new/cpu_tb.v|../../../CPU31.srcs/sources_1/new/seg7x16.v|../../../CPU31.srcs/sources_1/new/CPU_Board.v|../../../CPU31.srcs/sources_1/new/Divider.v|../../../CPU31.srcs/sources_1/new/pre_sim_tb.v|../../../CPU31.srcs/sources_1/new/sccomp_dataflow.v|../../../CPU31.srcs/sources_1/new/CPU.v|../../../CPU31.srcs/sources_1/new/DMEM.v|../../../CPU31.srcs/sources_1/new/ALU.v|../../../CPU31.srcs/sources_1/new/Controller.v|../../../CPU31.srcs/sources_1/new/PCreg.v|../../../CPU31.srcs/sources_1/new/RegFile.v|../../../CPU31.srcs/sources_1/new/MUX.v|../../../CPU31.srcs/sources_1/ip/ip7/sim/ip7.v|../../../CPU31.srcs/sources_1/ip/ip6/sim/ip6.v|../../../CPU31.srcs/sources_1/ip/IPcore/sim/IPcore.v|../../../CPU31.srcs/sources_1/ip/ip5/sim/ip5.v|../../../CPU31.srcs/sources_1/ip/ip4/sim/ip4.v|../../../CPU31.srcs/sources_1/ip/ip3/sim/ip3.v|../../../CPU31.srcs/sources_1/ip/ip2/sim/ip2.v|../../../CPU31.srcs/sources_1/ip/ip1/sim/ip1.v|
+Z7 !s90 -64|-incr|-work|xil_defaultlib|../../../CPU31.srcs/sources_1/ip/ip1/sim/ip1.v|../../../CPU31.srcs/sources_1/ip/ip2/sim/ip2.v|../../../CPU31.srcs/sources_1/ip/ip3/sim/ip3.v|../../../CPU31.srcs/sources_1/ip/ip4/sim/ip4.v|../../../CPU31.srcs/sources_1/ip/ip5/sim/ip5.v|../../../CPU31.srcs/sources_1/ip/IPcore/sim/IPcore.v|../../../CPU31.srcs/sources_1/ip/ip6/sim/ip6.v|../../../CPU31.srcs/sources_1/ip/ip7/sim/ip7.v|../../../CPU31.srcs/sources_1/new/MUX.v|../../../CPU31.srcs/sources_1/new/RegFile.v|../../../CPU31.srcs/sources_1/new/PCreg.v|../../../CPU31.srcs/sources_1/new/Controller.v|../../../CPU31.srcs/sources_1/new/ALU.v|../../../CPU31.srcs/sources_1/new/DMEM.v|../../../CPU31.srcs/sources_1/new/CPU.v|../../../CPU31.srcs/sources_1/new/sccomp_dataflow.v|../../../CPU31.srcs/sources_1/new/pre_sim_tb.v|../../../CPU31.srcs/sources_1/new/Divider.v|../../../CPU31.srcs/sources_1/new/CPU_Board.v|../../../CPU31.srcs/sources_1/new/seg7x16.v|../../../CPU31.srcs/sources_1/new/cpu_tb.v|../../../CPU31.srcs/sources_1/new/post_sim_tb.v|
+!i113 1
+Z8 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@a@l@u
+vController
+R1
+!i10b 1
+!s100 oW>gGchWjNa2H378iLj=Z1
+IBJ;9oaeAlC5aO`iV2l69c0
+R2
+R0
+w1715996068
+8../../../CPU31.srcs/sources_1/new/Controller.v
+F../../../CPU31.srcs/sources_1/new/Controller.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@controller
+vCPU
+R1
+!i10b 1
+!s100 YGkfnB0X2[MnBU9@ZBaN>1
+I]c?5cajWCQ[YiLoc@Qj4_1
+R2
+R0
+w1715914037
+8../../../CPU31.srcs/sources_1/new/CPU.v
+F../../../CPU31.srcs/sources_1/new/CPU.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@c@p@u
+vCPU_Board
+R1
+!i10b 1
+!s100 IOT]ci4O><YJSUc0fRiL20
+Ia85Iln<;f`9DTBDWLfgCo0
+R2
+R0
+w1716029865
+8../../../CPU31.srcs/sources_1/new/CPU_Board.v
+F../../../CPU31.srcs/sources_1/new/CPU_Board.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@c@p@u_@board
+vcpu_tb
+R1
+!i10b 1
+!s100 KCKBVl:mjK:_NjTNldadM0
+I?^eWh8mMaC06<GP[Y9SKO3
+R2
+R0
+w1716029242
+8../../../CPU31.srcs/sources_1/new/cpu_tb.v
+F../../../CPU31.srcs/sources_1/new/cpu_tb.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vDivider
+R1
+!i10b 1
+!s100 :HzG2[LSRlLX[H^QSfQLn2
+IoEFz:@=NQimh?F;MHnKF01
+R2
+R0
+w1716020332
+8../../../CPU31.srcs/sources_1/new/Divider.v
+F../../../CPU31.srcs/sources_1/new/Divider.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@divider
+vDMEM
+R1
+!i10b 1
+!s100 LG9PmU;ggnET8_fKczMcb2
+IS4Q`kNWnYo3j[`?L0JUN>0
+R2
+R0
+w1715909808
+8../../../CPU31.srcs/sources_1/new/DMEM.v
+F../../../CPU31.srcs/sources_1/new/DMEM.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@d@m@e@m
+vglbl
+R1
+!i10b 1
+!s100 g=dL3UKAkhNRkQ:7=fPzF1
+IkJ@CGO[n5[_3E=ZkTzmEk2
+R2
+R0
+w1464879896
+8glbl.v
+Fglbl.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+R8
+vip1
+R1
+!i10b 1
+!s100 GWj58kzd:SbZKQNkidd`W0
+IdN`P^lgQmR=[e9cjLP0bF3
+R2
+R0
+w1715876173
+8../../../CPU31.srcs/sources_1/ip/ip1/sim/ip1.v
+F../../../CPU31.srcs/sources_1/ip/ip1/sim/ip1.v
+Z9 L0 56
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vip2
+R1
+!i10b 1
+!s100 GD1=jH04d^6boUNmX2BP>1
+Izf0OiUmcYGe1:LPda^jNc3
+R2
+R0
+w1715929233
+8../../../CPU31.srcs/sources_1/ip/ip2/sim/ip2.v
+F../../../CPU31.srcs/sources_1/ip/ip2/sim/ip2.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vip3
+R1
+!i10b 1
+!s100 Dl^Q]<OLnBUIO:989DY5f2
+IXQ?0C4^kV<WIl@QZlgg820
+R2
+R0
+w1715965494
+8../../../CPU31.srcs/sources_1/ip/ip3/sim/ip3.v
+F../../../CPU31.srcs/sources_1/ip/ip3/sim/ip3.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vip4
+R1
+!i10b 1
+!s100 `WYTg>n2[4?COE3Jnh90z1
+I6[7NZKzSlUd1?D5zNo6CL3
+R2
+R0
+w1715966100
+8../../../CPU31.srcs/sources_1/ip/ip4/sim/ip4.v
+F../../../CPU31.srcs/sources_1/ip/ip4/sim/ip4.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vip5
+R1
+!i10b 1
+!s100 2[?`>53nWDz0H2lPo5h?M0
+IA?K0dJ:Z9N8[XebdA7YT_3
+R2
+R0
+w1715969041
+8../../../CPU31.srcs/sources_1/ip/ip5/sim/ip5.v
+F../../../CPU31.srcs/sources_1/ip/ip5/sim/ip5.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vip6
+R1
+!i10b 1
+!s100 V]Ba:I7l?Oc4UC0<H`R;93
+IkQbdLi3VZ>oTNS2L`hmHd3
+R2
+R0
+w1715996360
+8../../../CPU31.srcs/sources_1/ip/ip6/sim/ip6.v
+F../../../CPU31.srcs/sources_1/ip/ip6/sim/ip6.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vip7
+R1
+!i10b 1
+!s100 Hk:he8BE^o;C]K4<g]39a3
+IT[c;hWddb<a5jA;fdmTfo3
+R2
+R0
+w1715998930
+8../../../CPU31.srcs/sources_1/ip/ip7/sim/ip7.v
+F../../../CPU31.srcs/sources_1/ip/ip7/sim/ip7.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vIPcore
+R1
+!i10b 1
+!s100 3aSV7ASZ]HGdDG5hk??@f0
+I`5gC4WT:CnGc]?HPGScio0
+R2
+R0
+w1715993229
+8../../../CPU31.srcs/sources_1/ip/IPcore/sim/IPcore.v
+F../../../CPU31.srcs/sources_1/ip/IPcore/sim/IPcore.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@i@pcore
+vMUX_3X1_32
+R1
+!i10b 1
+!s100 fI4YSnkfN>gc:=JNojIo=0
+I_=R]Rn>oFOXVoidl<W53R2
+R2
+R0
+Z10 w1715996032
+Z11 8../../../CPU31.srcs/sources_1/new/MUX.v
+Z12 F../../../CPU31.srcs/sources_1/new/MUX.v
+L0 39
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@m@u@x_3@x1_32
+vMUX_3X1_5
+R1
+!i10b 1
+!s100 Rionk:Kl6ZV6G1n_CKM_^1
+IJb3Plm:?G^idONzhCCHfg2
+R2
+R0
+R10
+R11
+R12
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@m@u@x_3@x1_5
+vMUX_4X1_32
+R1
+!i10b 1
+!s100 kBf<7EBE_49`K2h<IQ2kC0
+Ic4IZ`fVjJzkZ2UaMMBU;M0
+R2
+R0
+R10
+R11
+R12
+L0 55
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@m@u@x_4@x1_32
+vPCreg
+R1
+!i10b 1
+!s100 m5Ob88I<zK_Jnb5XiVn5V1
+Ij@;zgS6JaTW>>NEk<eOXo1
+R2
+R0
+w1715999860
+8../../../CPU31.srcs/sources_1/new/PCreg.v
+F../../../CPU31.srcs/sources_1/new/PCreg.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@p@creg
+vpost_sim_tb
+R1
+!i10b 1
+!s100 AWdP^fPl;1R15F8khfYHR2
+IJP<B@9U[LP?8_<Ud_hgZg2
+R2
+R0
+w1716032566
+8../../../CPU31.srcs/sources_1/new/post_sim_tb.v
+F../../../CPU31.srcs/sources_1/new/post_sim_tb.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vpre_sim_tb
+R1
+!i10b 1
+!s100 4mBO8=jgZ`VlJN5_Cgi9K3
+IeUL?4YVoC9]S_?l]l3hRV1
+R2
+R0
+w1716001390
+8../../../CPU31.srcs/sources_1/new/pre_sim_tb.v
+F../../../CPU31.srcs/sources_1/new/pre_sim_tb.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vRegFile
+R1
+!i10b 1
+!s100 ;:[KGcJ<f@9QJf<^BXNZ?1
+INEh4?E4>OPaFY_`TK2i503
+R2
+R0
+w1716000196
+8../../../CPU31.srcs/sources_1/new/RegFile.v
+F../../../CPU31.srcs/sources_1/new/RegFile.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@reg@file
+vsccomp_dataflow
+R1
+!i10b 1
+!s100 k3d_[EJ5S^<>GXU6`P1UV1
+IEab]Rl@1<;Oi5d37YmHaz0
+R2
+R0
+w1716186627
+8../../../CPU31.srcs/sources_1/new/sccomp_dataflow.v
+F../../../CPU31.srcs/sources_1/new/sccomp_dataflow.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vseg7x16
+R1
+!i10b 1
+!s100 VSY>iEWcaUFjkD82dCOlc1
+IN<^]8;OLgLgLj;V[5cA]72
+R2
+R0
+w1532411702
+8../../../CPU31.srcs/sources_1/new/seg7x16.v
+F../../../CPU31.srcs/sources_1/new/seg7x16.v
+L0 21
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8

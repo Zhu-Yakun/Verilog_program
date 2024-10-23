@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Dec 04 23:03:35 2023">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="1ebf80da07e343f6ac3f15eb50673cb8" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="4" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
+<property name="SimulationClose" value="6" type="JavaHandler"/>
+<property name="SimulationRun" value="12" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, alu_tb.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="12" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, Run Post-Synthesis Functional Simulation" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, alu (alu.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, alu_tb (alu_tb.v" value="8" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="14" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Simulation Settings], 10, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_CHOOSE_COMPILED_LIBRARY_LOCATION, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_CHOOSE_COMPILED_LIBRARY_LOCATION, D:/xilinx_sim_lib" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_TARGET_SIMULATOR, ModelSim Simulator, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="8" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 154, 267, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 154, 317, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 84, 208, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 84, 255, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 93, 308, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, aluc[3:0]], 2" value="1" type="GuiResourceData"/>
+<property name="alu.v, 0, 162" value="1" type="GuiResourceData"/>
+<property name="alu.v, 0, 198" value="1" type="GuiResourceData"/>
+<property name="alu.v, 0, 330" value="1" type="GuiResourceData"/>
+<property name="alu.v, 1, 433" value="1" type="GuiResourceData"/>
+<property name="alu.v, 100, 260" value="1" type="GuiResourceData"/>
+<property name="alu.v, 101, 235" value="1" type="GuiResourceData"/>
+<property name="alu.v, 101, 355" value="1" type="GuiResourceData"/>
+<property name="alu.v, 101, 431" value="1" type="GuiResourceData"/>
+<property name="alu.v, 105, 214" value="1" type="GuiResourceData"/>
+<property name="alu.v, 105, 452" value="1" type="GuiResourceData"/>
+<property name="alu.v, 105, 564" value="1" type="GuiResourceData"/>
+<property name="alu.v, 106, 329" value="1" type="GuiResourceData"/>
+<property name="alu.v, 106, 449" value="1" type="GuiResourceData"/>
+<property name="alu.v, 107, 448" value="1" type="GuiResourceData"/>
+<property name="alu.v, 107, 522" value="1" type="GuiResourceData"/>
+<property name="alu.v, 108, 544" value="1" type="GuiResourceData"/>
+<property name="alu.v, 109, 396" value="1" type="GuiResourceData"/>
+<property name="alu.v, 111, 409" value="1" type="GuiResourceData"/>
+<property name="alu.v, 113, 280" value="1" type="GuiResourceData"/>
+<property name="alu.v, 115, 481" value="1" type="GuiResourceData"/>
+<property name="alu.v, 118, 354" value="1" type="GuiResourceData"/>
+<property name="alu.v, 119, 336" value="1" type="GuiResourceData"/>
+<property name="alu.v, 119, 469" value="1" type="GuiResourceData"/>
+<property name="alu.v, 119, 526" value="1" type="GuiResourceData"/>
+<property name="alu.v, 121, 369" value="1" type="GuiResourceData"/>
+<property name="alu.v, 122, 448" value="1" type="GuiResourceData"/>
+<property name="alu.v, 125, 465" value="1" type="GuiResourceData"/>
+<property name="alu.v, 126, 408" value="1" type="GuiResourceData"/>
+<property name="alu.v, 126, 425" value="1" type="GuiResourceData"/>
+<property name="alu.v, 126, 430" value="1" type="GuiResourceData"/>
+<property name="alu.v, 126, 44" value="1" type="GuiResourceData"/>
+<property name="alu.v, 127, 466" value="1" type="GuiResourceData"/>
+<property name="alu.v, 127, 485" value="1" type="GuiResourceData"/>
+<property name="alu.v, 127, 88" value="1" type="GuiResourceData"/>
+<property name="alu.v, 128, 169" value="1" type="GuiResourceData"/>
+<property name="alu.v, 128, 67" value="1" type="GuiResourceData"/>
+<property name="alu.v, 130, 297" value="1" type="GuiResourceData"/>
+<property name="alu.v, 130, 427, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="alu.v, 131, 426" value="1" type="GuiResourceData"/>
+<property name="alu.v, 132, 151" value="1" type="GuiResourceData"/>
+<property name="alu.v, 132, 315" value="1" type="GuiResourceData"/>
+<property name="alu.v, 133, 357" value="1" type="GuiResourceData"/>
+<property name="alu.v, 133, 470" value="1" type="GuiResourceData"/>
+<property name="alu.v, 135, 182" value="1" type="GuiResourceData"/>
+<property name="alu.v, 135, 393" value="1" type="GuiResourceData"/>
+<property name="alu.v, 135, 49" value="1" type="GuiResourceData"/>
+<property name="alu.v, 137, 488" value="1" type="GuiResourceData"/>
+<property name="alu.v, 138, 486" value="1" type="GuiResourceData"/>
+<property name="alu.v, 140, 112, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="alu.v, 141, 245" value="1" type="GuiResourceData"/>
+<property name="alu.v, 142, 545" value="1" type="GuiResourceData"/>
+<property name="alu.v, 144, 431" value="1" type="GuiResourceData"/>
+<property name="alu.v, 145, 214" value="1" type="GuiResourceData"/>
+<property name="alu.v, 145, 389" value="1" type="GuiResourceData"/>
+<property name="alu.v, 146, 507" value="1" type="GuiResourceData"/>
+<property name="alu.v, 147, 471" value="1" type="GuiResourceData"/>
+<property name="alu.v, 149, 198" value="1" type="GuiResourceData"/>
+<property name="alu.v, 152, 373" value="1" type="GuiResourceData"/>
+<property name="alu.v, 155, 296" value="1" type="GuiResourceData"/>
+<property name="alu.v, 156, 560" value="1" type="GuiResourceData"/>
+<property name="alu.v, 161, 583" value="1" type="GuiResourceData"/>
+<property name="alu.v, 164, 237" value="1" type="GuiResourceData"/>
+<property name="alu.v, 166, 505" value="1" type="GuiResourceData"/>
+<property name="alu.v, 167, 220" value="1" type="GuiResourceData"/>
+<property name="alu.v, 167, 439" value="1" type="GuiResourceData"/>
+<property name="alu.v, 167, 447" value="1" type="GuiResourceData"/>
+<property name="alu.v, 168, 429" value="1" type="GuiResourceData"/>
+<property name="alu.v, 170, 220" value="1" type="GuiResourceData"/>
+<property name="alu.v, 170, 395" value="1" type="GuiResourceData"/>
+<property name="alu.v, 171, 362" value="1" type="GuiResourceData"/>
+<property name="alu.v, 173, 560" value="1" type="GuiResourceData"/>
+<property name="alu.v, 174, 389" value="1" type="GuiResourceData"/>
+<property name="alu.v, 175, 544" value="1" type="GuiResourceData"/>
+<property name="alu.v, 176, 278" value="1" type="GuiResourceData"/>
+<property name="alu.v, 176, 467" value="1" type="GuiResourceData"/>
+<property name="alu.v, 176, 567" value="1" type="GuiResourceData"/>
+<property name="alu.v, 179, 398" value="1" type="GuiResourceData"/>
+<property name="alu.v, 181, 349" value="1" type="GuiResourceData"/>
+<property name="alu.v, 181, 422" value="1" type="GuiResourceData"/>
+<property name="alu.v, 181, 487" value="1" type="GuiResourceData"/>
+<property name="alu.v, 182, 466" value="1" type="GuiResourceData"/>
+<property name="alu.v, 182, 517" value="1" type="GuiResourceData"/>
+<property name="alu.v, 183, 43" value="1" type="GuiResourceData"/>
+<property name="alu.v, 183, 472" value="1" type="GuiResourceData"/>
+<property name="alu.v, 184, 405" value="1" type="GuiResourceData"/>
+<property name="alu.v, 186, 289" value="1" type="GuiResourceData"/>
+<property name="alu.v, 187, 322" value="1" type="GuiResourceData"/>
+<property name="alu.v, 187, 428" value="1" type="GuiResourceData"/>
+<property name="alu.v, 190, 483" value="1" type="GuiResourceData"/>
+<property name="alu.v, 195, 232" value="1" type="GuiResourceData"/>
+<property name="alu.v, 195, 437" value="1" type="GuiResourceData"/>
+<property name="alu.v, 196, 391" value="1" type="GuiResourceData"/>
+<property name="alu.v, 196, 445" value="1" type="GuiResourceData"/>
+<property name="alu.v, 198, 465" value="1" type="GuiResourceData"/>
+<property name="alu.v, 198, 576" value="1" type="GuiResourceData"/>
+<property name="alu.v, 200, 485" value="1" type="GuiResourceData"/>
+<property name="alu.v, 203, 351" value="1" type="GuiResourceData"/>
+<property name="alu.v, 203, 429" value="1" type="GuiResourceData"/>
+<property name="alu.v, 204, 322" value="1" type="GuiResourceData"/>
+<property name="alu.v, 207, 328" value="1" type="GuiResourceData"/>
+<property name="alu.v, 207, 344" value="1" type="GuiResourceData"/>
+<property name="alu.v, 208, 591" value="1" type="GuiResourceData"/>
+<property name="alu.v, 209, 470" value="1" type="GuiResourceData"/>
+<property name="alu.v, 21, 240" value="1" type="GuiResourceData"/>
+<property name="alu.v, 211, 264" value="1" type="GuiResourceData"/>
+<property name="alu.v, 212, 425" value="2" type="GuiResourceData"/>
+<property name="alu.v, 215, 122" value="1" type="GuiResourceData"/>
+<property name="alu.v, 216, 460" value="1" type="GuiResourceData"/>
+<property name="alu.v, 217, 120" value="1" type="GuiResourceData"/>
+<property name="alu.v, 217, 507" value="1" type="GuiResourceData"/>
+<property name="alu.v, 219, 415" value="1" type="GuiResourceData"/>
+<property name="alu.v, 223, 157" value="1" type="GuiResourceData"/>
+<property name="alu.v, 223, 185" value="1" type="GuiResourceData"/>
+<property name="alu.v, 229, 154" value="1" type="GuiResourceData"/>
+<property name="alu.v, 23, 279" value="1" type="GuiResourceData"/>
+<property name="alu.v, 23, 356" value="1" type="GuiResourceData"/>
+<property name="alu.v, 232, 345" value="1" type="GuiResourceData"/>
+<property name="alu.v, 234, 361" value="1" type="GuiResourceData"/>
+<property name="alu.v, 234, 361, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="alu.v, 235, 357" value="1" type="GuiResourceData"/>
+<property name="alu.v, 235, 448" value="1" type="GuiResourceData"/>
+<property name="alu.v, 235, 450" value="1" type="GuiResourceData"/>
+<property name="alu.v, 235, 526" value="1" type="GuiResourceData"/>
+<property name="alu.v, 236, 110" value="1" type="GuiResourceData"/>
+<property name="alu.v, 236, 277" value="1" type="GuiResourceData"/>
+<property name="alu.v, 238, 87" value="1" type="GuiResourceData"/>
+<property name="alu.v, 24, 352" value="1" type="GuiResourceData"/>
+<property name="alu.v, 24, 352, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="alu.v, 248, 432" value="1" type="GuiResourceData"/>
+<property name="alu.v, 255, 525" value="1" type="GuiResourceData"/>
+<property name="alu.v, 262, 543" value="1" type="GuiResourceData"/>
+<property name="alu.v, 264, 524" value="1" type="GuiResourceData"/>
+<property name="alu.v, 264, 563" value="1" type="GuiResourceData"/>
+<property name="alu.v, 265, 447" value="2" type="GuiResourceData"/>
+<property name="alu.v, 265, 487" value="1" type="GuiResourceData"/>
+<property name="alu.v, 266, 399" value="1" type="GuiResourceData"/>
+<property name="alu.v, 268, 143" value="1" type="GuiResourceData"/>
+<property name="alu.v, 268, 393" value="1" type="GuiResourceData"/>
+<property name="alu.v, 268, 448" value="1" type="GuiResourceData"/>
+<property name="alu.v, 27, 503" value="1" type="GuiResourceData"/>
+<property name="alu.v, 270, 506" value="1" type="GuiResourceData"/>
+<property name="alu.v, 270, 531" value="1" type="GuiResourceData"/>
+<property name="alu.v, 274, 337" value="1" type="GuiResourceData"/>
+<property name="alu.v, 278, 350" value="1" type="GuiResourceData"/>
+<property name="alu.v, 279, 378" value="1" type="GuiResourceData"/>
+<property name="alu.v, 279, 60" value="1" type="GuiResourceData"/>
+<property name="alu.v, 280, 333" value="1" type="GuiResourceData"/>
+<property name="alu.v, 285, 179" value="1" type="GuiResourceData"/>
+<property name="alu.v, 289, 521" value="1" type="GuiResourceData"/>
+<property name="alu.v, 292, 294" value="1" type="GuiResourceData"/>
+<property name="alu.v, 292, 535" value="1" type="GuiResourceData"/>
+<property name="alu.v, 296, 446" value="1" type="GuiResourceData"/>
+<property name="alu.v, 298, 347" value="1" type="GuiResourceData"/>
+<property name="alu.v, 304, 495" value="1" type="GuiResourceData"/>
+<property name="alu.v, 306, 330" value="1" type="GuiResourceData"/>
+<property name="alu.v, 311, 519" value="1" type="GuiResourceData"/>
+<property name="alu.v, 313, 291" value="1" type="GuiResourceData"/>
+<property name="alu.v, 315, 371" value="1" type="GuiResourceData"/>
+<property name="alu.v, 318, 366" value="1" type="GuiResourceData"/>
+<property name="alu.v, 319, 574" value="1" type="GuiResourceData"/>
+<property name="alu.v, 320, 285" value="1" type="GuiResourceData"/>
+<property name="alu.v, 326, 261" value="1" type="GuiResourceData"/>
+<property name="alu.v, 326, 370" value="1" type="GuiResourceData"/>
+<property name="alu.v, 327, 508" value="1" type="GuiResourceData"/>
+<property name="alu.v, 330, 277" value="1" type="GuiResourceData"/>
+<property name="alu.v, 330, 528" value="1" type="GuiResourceData"/>
+<property name="alu.v, 333, 463" value="1" type="GuiResourceData"/>
+<property name="alu.v, 338, 470" value="1" type="GuiResourceData"/>
+<property name="alu.v, 339, 520" value="1" type="GuiResourceData"/>
+<property name="alu.v, 341, 399" value="1" type="GuiResourceData"/>
+<property name="alu.v, 343, 481" value="1" type="GuiResourceData"/>
+<property name="alu.v, 345, 463" value="1" type="GuiResourceData"/>
+<property name="alu.v, 356, 232" value="1" type="GuiResourceData"/>
+<property name="alu.v, 362, 573" value="1" type="GuiResourceData"/>
+<property name="alu.v, 363, 206" value="1" type="GuiResourceData"/>
+<property name="alu.v, 364, 563" value="1" type="GuiResourceData"/>
+<property name="alu.v, 375, 506" value="1" type="GuiResourceData"/>
+<property name="alu.v, 378, 466" value="1" type="GuiResourceData"/>
+<property name="alu.v, 392, 485" value="1" type="GuiResourceData"/>
+<property name="alu.v, 397, 299" value="2" type="GuiResourceData"/>
+<property name="alu.v, 397, 481" value="1" type="GuiResourceData"/>
+<property name="alu.v, 398, 260" value="1" type="GuiResourceData"/>
+<property name="alu.v, 407, 72" value="1" type="GuiResourceData"/>
+<property name="alu.v, 411, 302" value="1" type="GuiResourceData"/>
+<property name="alu.v, 44, 409" value="1" type="GuiResourceData"/>
+<property name="alu.v, 46, 426" value="1" type="GuiResourceData"/>
+<property name="alu.v, 46, 487" value="1" type="GuiResourceData"/>
+<property name="alu.v, 46, 544" value="1" type="GuiResourceData"/>
+<property name="alu.v, 46, 580" value="1" type="GuiResourceData"/>
+<property name="alu.v, 47, 425" value="1" type="GuiResourceData"/>
+<property name="alu.v, 47, 449" value="1" type="GuiResourceData"/>
+<property name="alu.v, 47, 490" value="1" type="GuiResourceData"/>
+<property name="alu.v, 47, 504" value="1" type="GuiResourceData"/>
+<property name="alu.v, 47, 541" value="1" type="GuiResourceData"/>
+<property name="alu.v, 47, 577" value="1" type="GuiResourceData"/>
+<property name="alu.v, 47, 581" value="1" type="GuiResourceData"/>
+<property name="alu.v, 474, 504" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 258" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 320" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 332" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 335" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 353" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 429" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 430" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 448" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 485" value="1" type="GuiResourceData"/>
+<property name="alu.v, 48, 562" value="1" type="GuiResourceData"/>
+<property name="alu.v, 481, 313" value="1" type="GuiResourceData"/>
+<property name="alu.v, 481, 562" value="1" type="GuiResourceData"/>
+<property name="alu.v, 482, 508" value="1" type="GuiResourceData"/>
+<property name="alu.v, 49, 242" value="1" type="GuiResourceData"/>
+<property name="alu.v, 49, 352" value="1" type="GuiResourceData"/>
+<property name="alu.v, 49, 410" value="1" type="GuiResourceData"/>
+<property name="alu.v, 49, 428" value="1" type="GuiResourceData"/>
+<property name="alu.v, 49, 448" value="1" type="GuiResourceData"/>
+<property name="alu.v, 49, 452" value="1" type="GuiResourceData"/>
+<property name="alu.v, 49, 504" value="1" type="GuiResourceData"/>
+<property name="alu.v, 50, 429" value="1" type="GuiResourceData"/>
+<property name="alu.v, 50, 505" value="1" type="GuiResourceData"/>
+<property name="alu.v, 501, 344" value="1" type="GuiResourceData"/>
+<property name="alu.v, 51, 529" value="1" type="GuiResourceData"/>
+<property name="alu.v, 51, 562" value="1" type="GuiResourceData"/>
+<property name="alu.v, 518, 383" value="1" type="GuiResourceData"/>
+<property name="alu.v, 52, 561, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="alu.v, 54, 357" value="1" type="GuiResourceData"/>
+<property name="alu.v, 54, 561" value="1" type="GuiResourceData"/>
+<property name="alu.v, 596, 508" value="1" type="GuiResourceData"/>
+<property name="alu.v, 598, 502" value="1" type="GuiResourceData"/>
+<property name="alu.v, 60, 333" value="1" type="GuiResourceData"/>
+<property name="alu.v, 617, 503" value="1" type="GuiResourceData"/>
+<property name="alu.v, 637, 426" value="1" type="GuiResourceData"/>
+<property name="alu.v, 64, 335" value="1" type="GuiResourceData"/>
+<property name="alu.v, 64, 337" value="1" type="GuiResourceData"/>
+<property name="alu.v, 64, 414" value="1" type="GuiResourceData"/>
+<property name="alu.v, 642, 561" value="1" type="GuiResourceData"/>
+<property name="alu.v, 65, 316" value="1" type="GuiResourceData"/>
+<property name="alu.v, 66, 581" value="1" type="GuiResourceData"/>
+<property name="alu.v, 665, 530" value="1" type="GuiResourceData"/>
+<property name="alu.v, 67, 355" value="1" type="GuiResourceData"/>
+<property name="alu.v, 67, 373" value="1" type="GuiResourceData"/>
+<property name="alu.v, 67, 489" value="1" type="GuiResourceData"/>
+<property name="alu.v, 68, 296" value="1" type="GuiResourceData"/>
+<property name="alu.v, 683, 408" value="1" type="GuiResourceData"/>
+<property name="alu.v, 69, 178" value="1" type="GuiResourceData"/>
+<property name="alu.v, 70, 164" value="1" type="GuiResourceData"/>
+<property name="alu.v, 70, 220" value="1" type="GuiResourceData"/>
+<property name="alu.v, 70, 372" value="1" type="GuiResourceData"/>
+<property name="alu.v, 71, 354" value="1" type="GuiResourceData"/>
+<property name="alu.v, 71, 371" value="1" type="GuiResourceData"/>
+<property name="alu.v, 71, 391" value="1" type="GuiResourceData"/>
+<property name="alu.v, 71, 393" value="1" type="GuiResourceData"/>
+<property name="alu.v, 716, 504" value="1" type="GuiResourceData"/>
+<property name="alu.v, 72, 181" value="1" type="GuiResourceData"/>
+<property name="alu.v, 72, 427" value="1" type="GuiResourceData"/>
+<property name="alu.v, 72, 430" value="1" type="GuiResourceData"/>
+<property name="alu.v, 73, 202" value="1" type="GuiResourceData"/>
+<property name="alu.v, 73, 395" value="1" type="GuiResourceData"/>
+<property name="alu.v, 73, 413" value="1" type="GuiResourceData"/>
+<property name="alu.v, 74, 352" value="1" type="GuiResourceData"/>
+<property name="alu.v, 76, 356" value="1" type="GuiResourceData"/>
+<property name="alu.v, 76, 393" value="1" type="GuiResourceData"/>
+<property name="alu.v, 76, 427" value="1" type="GuiResourceData"/>
+<property name="alu.v, 76, 504" value="1" type="GuiResourceData"/>
+<property name="alu.v, 78, 450" value="1" type="GuiResourceData"/>
+<property name="alu.v, 78, 477" value="1" type="GuiResourceData"/>
+<property name="alu.v, 79, 373" value="1" type="GuiResourceData"/>
+<property name="alu.v, 79, 392" value="1" type="GuiResourceData"/>
+<property name="alu.v, 79, 429" value="1" type="GuiResourceData"/>
+<property name="alu.v, 80, 475" value="1" type="GuiResourceData"/>
+<property name="alu.v, 83, 473, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="alu.v, 84, 396" value="1" type="GuiResourceData"/>
+<property name="alu.v, 85, 470" value="1" type="GuiResourceData"/>
+<property name="alu.v, 86, 410" value="1" type="GuiResourceData"/>
+<property name="alu.v, 88, 162" value="1" type="GuiResourceData"/>
+<property name="alu.v, 89, 203" value="1" type="GuiResourceData"/>
+<property name="alu.v, 89, 469" value="1" type="GuiResourceData"/>
+<property name="alu.v, 90, 237" value="1" type="GuiResourceData"/>
+<property name="alu.v, 90, 507" value="1" type="GuiResourceData"/>
+<property name="alu.v, 91, 351" value="1" type="GuiResourceData"/>
+<property name="alu.v, 92, 389" value="1" type="GuiResourceData"/>
+<property name="alu.v, 93, 221" value="1" type="GuiResourceData"/>
+<property name="alu.v, 93, 477" value="1" type="GuiResourceData"/>
+<property name="alu.v, 94, 256" value="1" type="GuiResourceData"/>
+<property name="alu.v, 95, 430" value="1" type="GuiResourceData"/>
+<property name="alu.v, 96, 222" value="1" type="GuiResourceData"/>
+<property name="alu.v, 96, 392" value="1" type="GuiResourceData"/>
+<property name="alu.v, 96, 428" value="1" type="GuiResourceData"/>
+<property name="alu.v, 96, 452" value="1" type="GuiResourceData"/>
+<property name="alu.v, 97, 392" value="1" type="GuiResourceData"/>
+<property name="alu.v, 97, 432" value="1" type="GuiResourceData"/>
+<property name="alu.v, 98, 580" value="1" type="GuiResourceData"/>
+<property name="alu.v, 983, 246" value="1" type="GuiResourceData"/>
+<property name="alu.v, 99, 409" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 0, 108" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 0, 29" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 0, 31" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 0, 350" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 0, 413" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 1, 201" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 10, 94" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 101, 217" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 104, 333" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 110, 201" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 113, 526" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 120, 203" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 126, 251" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 130, 442" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 131, 404" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 133, 179, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 139, 365" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 143, 453" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 144, 418" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 147, 299" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 149, 532" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 150, 297" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 151, 428" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 151, 465" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 153, 441" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 153, 475" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 158, 409" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 160, 369" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 161, 201" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 162, 431" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 165, 445" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 166, 263" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 167, 382" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 169, 157" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 171, 464" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 174, 327" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 177, 394" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 191, 427" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 191, 67" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 196, 359, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 2, 183" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 20, 294" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 203, 511" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 21, 149" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 210, 324" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 215, 458" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 22, 215" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 225, 363" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 237, 321" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 24, 109" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 24, 183" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 24, 31" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 240, 237" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 246, 283" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 246, 688, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 247, 282" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 249, 336" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 254, 455" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 262, 460" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 269, 198" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 27, 129" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 275, 463" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 275, 475" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 276, 275" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 276, 512" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 278, 490" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 281, 183" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 291, 388" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 297, 458" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 311, 210" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 311, 210, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 313, 308" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 321, 206" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 322, 293" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 326, 202" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 334, 451" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 335, 452" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 346, 299" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 354, 335, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 356, 231" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 357, 481" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 358, 478" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 365, 428" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 407, 274" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 413, 265" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 418, 256" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 45, 167" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 476, 357" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 48, 280" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 484, 317" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 49, 163" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 490, 329" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 54, 318" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 557, 329" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 58, 182" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 641, 369" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 668, 241" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 73, 279" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 75, 220" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 76, 410" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 77, 391" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 77, 431" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 77, 486" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 78, 333" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 79, 201" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 79, 334" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 79, 467" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 80, 202" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 80, 217" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 80, 334" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 80, 489" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 81, 105" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 81, 203" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 82, 330" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 82, 468" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 82, 83" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 83, 105" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 83, 279" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 83, 392" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 84, 200" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 84, 203" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 84, 280" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 84, 334" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 84, 502" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 84, 86" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 104" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 183" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 205" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 216" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 296" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 332" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 334" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 353" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 428" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 429" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 447" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 448" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 487" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 85, 87" value="2" type="GuiResourceData"/>
+<property name="alu_tb.v, 86, 180" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 86, 294" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 86, 355" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 87, 217" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 88, 297" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 89, 502" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 90, 337" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 91, 279" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 92, 201" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 92, 276" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 94, 236" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 95, 106" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 95, 85" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 96, 221" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 96, 371" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 960, 188" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 97, 202" value="1" type="GuiResourceData"/>
+<property name="alu_tb.v, 972, 399" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="102" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="86" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

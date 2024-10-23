@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sun Nov 26 15:15:13 2023">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="6ac36c30c9cb430fbb9e33336aee3dc6" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="SimulationClose" value="8" type="JavaHandler"/>
+<property name="SimulationRun" value="12" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, ram2_tb (ram2_tb.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="4" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1, 284" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 103, 194, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 110, 526" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 110, 536" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 115, 560" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 135, 272, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 135, 363" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 138, 561" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 148, 220, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 172, 228, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 173, 331" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 175, 360" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 187, 553" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 2, 281" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 206, 349" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 209, 550" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 215, 330" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 224, 291" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 229, 286" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 233, 346" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 234, 230" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 247, 248" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 249, 530" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 250, 346" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 257, 337" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 261, 331" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 269, 377" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 286, 335" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 287, 331" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 298, 344" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 30, 570" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 316, 532" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 33, 576" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 337, 442" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 35, 576" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 366, 300, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 376, 384" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 384, 540" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 385, 447" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 42, 582" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 42, 586" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 434, 542" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 45, 573" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 452, 452" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 455, 445" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 48, 542" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 48, 599" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 487, 599" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 497, 445" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 499, 438" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 502, 544" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 54, 560" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 71, 609" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 80, 537" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 80, 558" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 88, 559" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 93, 222, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 93, 236, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 94, 601" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, addr[4:0]], 3" value="3" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, data[31:0]], 4" value="4" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, data[31:0]], 9" value="3" type="GuiResourceData"/>
+<property name="ram2.v, 0, 274" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 0, 280" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 0, 431" value="2" type="GuiResourceData"/>
+<property name="ram2.v, 122, 255" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 168, 256" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 168, 568" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 198, 142" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 202, 314" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 21, 232" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 216, 256" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 22, 276" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 22, 504" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 23, 525" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 23, 564" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 235, 559" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 25, 201" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 25, 447" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 25, 507" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 250, 217" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 262, 187" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 268, 161" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 27, 431" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 278, 291" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 283, 626" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 296, 208" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 299, 255" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 301, 689" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 312, 314" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 314, 240" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 319, 557" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 332, 572" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 343, 496" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 354, 556" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 358, 528" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 361, 335" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 362, 500" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 378, 602" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 381, 369" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 400, 688" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 442, 268" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 444, 581" value="2" type="GuiResourceData"/>
+<property name="ram2.v, 45, 560" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 48, 430" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 49, 563" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 491, 569" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 52, 560" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 671, 180" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 71, 602" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 73, 390" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 76, 445" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 85, 547" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 0, 563" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 0, 88" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 1, 333" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 1, 411" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 1, 546" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 101, 388" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 106, 313" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 107, 221" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 107, 580" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 108, 183" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 108, 278" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 108, 502" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 108, 542" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 108, 561" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 109, 200" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 109, 240" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 109, 258" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 109, 446" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 109, 469" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 110, 314" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 113, 564" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 115, 521" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 115, 548" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 117, 412" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 120, 446" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 123, 411" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 132, 552, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 133, 467" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 134, 390" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 136, 322" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 142, 544" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 149, 148" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 149, 164" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 149, 295" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 149, 430" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 152, 339" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 152, 557" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 156, 406" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 158, 511" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 158, 515" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 160, 561" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 162, 472" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 167, 274" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 171, 371" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 177, 296" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 178, 288" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 178, 522" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 179, 234" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 182, 467" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 195, 194" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 195, 369" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 197, 315" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 2, 486" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 205, 394" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 211, 408" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 212, 510" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 213, 467" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 215, 180" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 217, 199" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 225, 532" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 233, 374" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 247, 402" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 268, 500" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 273, 444" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 284, 399" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 288, 420" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 295, 618" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 3, 636" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 301, 301" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 303, 677" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 310, 496" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 319, 310" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 40, 293" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 46, 371" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 46, 387" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 48, 334" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 49, 201" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 49, 257" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 59, 465" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 60, 503" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 64, 240" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 77, 448" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 77, 565" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 85, 557" value="2" type="GuiResourceData"/>
+<property name="ram2_tb.v, 87, 486" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 92, 487" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 92, 542" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 93, 543" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 95, 446" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 97, 468" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 97, 484" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 97, 501" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 97, 544" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 99, 578" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="92" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="77" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1697298200">
+  <File Type="OPT-DCP" Name="selector41_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="selector41_route_status.pb"/>
+  <File Type="PA-TCL" Name="selector41.tcl"/>
+  <File Type="RDI-RDI" Name="selector41.vdi"/>
+  <File Type="PWROPT-DRC" Name="selector41_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="selector41_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="selector41_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="selector41_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="selector41_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="selector41.hwdef"/>
+  <File Type="OPT-TIMING" Name="selector41_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="selector41_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="selector41_placed.dcp"/>
+  <File Type="PLACE-IO" Name="selector41_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="selector41_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="selector41_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="selector41_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="selector41_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="selector41_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="selector41_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="selector41_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="selector41_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="selector41_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="selector41_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="selector41_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="selector41_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="selector41_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="selector41_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="selector41_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="selector41_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="selector41_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="selector41.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="selector41_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="selector41_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="selector41_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="selector41_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="selector41_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="selector41_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="selector41_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="selector41_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="selector41_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="selector41_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="selector41_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="selector41_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="selector41_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="selector41_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="selector41_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="selector41.bin"/>
+  <File Type="BITSTR-MSK" Name="selector41.msk"/>
+  <File Type="BITSTR-RBT" Name="selector41.rbt"/>
+  <File Type="BITSTR-NKY" Name="selector41.nky"/>
+  <File Type="BITSTR-BMM" Name="selector41_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="selector41.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="selector41.sysdef"/>
+  <File Type="BG-BGN" Name="selector41.bgn"/>
+  <File Type="BG-DRC" Name="selector41.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/selector41.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/selector41_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="selector41"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/top_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

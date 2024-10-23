@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="ip5_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1715969041">
+  <File Type="PA-TCL" Name="ip5.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="ip5_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="ip5.vds"/>
+  <File Type="RDS-UTIL" Name="ip5_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ip5_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ip5.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ip5_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="ip5_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ip5">
+    <File Path="$PSRCDIR/sources_1/ip/ip5/ip5.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ip5"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ip5">
+    <File Path="$PSRCDIR/sources_1/ip/ip5/ip5.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ip5"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

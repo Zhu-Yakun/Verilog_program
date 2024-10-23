@@ -1,0 +1,25 @@
+# do {three_state_gates_tb_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 15:31:24 on Sep 22,2023
+# vlog -64 -incr -work xil_defaultlib ../../../three_state_gates.srcs/sources_1/new/three_state_gates.v ../../../three_state_gates.srcs/sources_1/new/three_state_gates_tb.v 
+# -- Compiling module three_state_gates
+# -- Compiling module three_state_gates_tb
+# 
+# Top level modules:
+# 	three_state_gates_tb
+# End time: 15:31:24 on Sep 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 15:31:24 on Sep 22,2023
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 15:31:24 on Sep 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_projects/ram2/ram2.srcs/sources_1/new/ram2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_projects/ram2/ram2.srcs/sources_1/new/ram2_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram2_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_projects/ram2/ram2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

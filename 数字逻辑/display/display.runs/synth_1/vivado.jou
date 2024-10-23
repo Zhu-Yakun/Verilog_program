@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Oct 22 21:01:06 2023
+# Process ID: 52368
+# Current directory: D:/vivado_projects/display/display.runs/synth_1
+# Command line: vivado.exe -log display7.vds -mode batch -messageDb vivado.pb -notrace -source display7.tcl
+# Log file: D:/vivado_projects/display/display.runs/synth_1/display7.vds
+# Journal file: D:/vivado_projects/display/display.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source display7.tcl -notrace

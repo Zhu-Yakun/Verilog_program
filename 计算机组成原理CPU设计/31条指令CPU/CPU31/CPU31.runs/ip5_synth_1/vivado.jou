@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat May 18 02:04:02 2024
+# Process ID: 18576
+# Current directory: D:/vivado_projects/CPU31/CPU31.runs/ip5_synth_1
+# Command line: vivado.exe -log ip5.vds -mode batch -messageDb vivado.pb -notrace -source ip5.tcl
+# Log file: D:/vivado_projects/CPU31/CPU31.runs/ip5_synth_1/ip5.vds
+# Journal file: D:/vivado_projects/CPU31/CPU31.runs/ip5_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ip5.tcl -notrace

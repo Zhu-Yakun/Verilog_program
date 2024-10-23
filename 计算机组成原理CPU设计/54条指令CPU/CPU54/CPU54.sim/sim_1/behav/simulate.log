@@ -1,0 +1,44 @@
+# do {_246tb_ex10_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L dist_mem_gen_v8_0_10 -L xil_defaultlib -lib xil_defaultlib xil_defaultlib._246tb_ex10_tb xil_defaultlib.glbl 
+# Start time: 19:47:06 on Jul 12,2024
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib._246tb_ex10_tb
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading xil_defaultlib.IMEM
+# Loading xil_defaultlib.dist_mem_gen_1
+# Loading dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10
+# Loading xil_defaultlib.DMEM
+# Loading xil_defaultlib.cpu
+# Loading xil_defaultlib.Decoder
+# Loading xil_defaultlib.Controler
+# Loading xil_defaultlib.ALU
+# Loading xil_defaultlib.regfile
+# Loading xil_defaultlib.PC
+# Loading xil_defaultlib.HI_LO
+# Loading xil_defaultlib.MUX
+# Loading xil_defaultlib.DIV
+# Loading xil_defaultlib.MUL
+# Loading xil_defaultlib.CP0
+# Loading xil_defaultlib.CLZ
+# Loading xil_defaultlib.glbl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 1320 of file "dist_mem_gen_1.mif". Expected 2048, found 1319.    : ../../../CPU54.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v(234)
+#    Time: 0 ps  Iteration: 0  Instance: /_246tb_ex10_tb/uut/imem/imem/inst
+# End time: 19:47:23 on Jul 12,2024, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1

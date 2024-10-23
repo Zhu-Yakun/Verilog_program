@@ -1,0 +1,90 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu May 23 22:39:18 2024
+| Host         : LAPTOP-PHQGBIQQ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CPU_Board_control_sets_placed.rpt
+| Design       : CPU_Board
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    37 |
+| Unused register locations in slices containing registers |    14 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |              88 |           38 |
+| No           | Yes                   | No                     |              33 |            8 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            1024 |          489 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------------------+------------------------------------------------------------+------------------+------------------+----------------+
+|                    Clock Signal                    |                        Enable Signal                       | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------------------------------------------+------------------------------------------------------------+------------------+------------------+----------------+
+|  my_sccomp_dataflow/sccpu/cpu_ALU/zero_reg_i_2_n_0 |                                                            |                  |                1 |              1 |
+|  show/seg7_clk                                     |                                                            | reset_IBUF       |                2 |              3 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg                 | reset_IBUF       |               21 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[0][31]_i_1_n_0  | reset_IBUF       |               14 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[10][31]_i_1_n_0 | reset_IBUF       |               11 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[11][31]_i_1_n_0 | reset_IBUF       |                9 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[12][31]_i_1_n_0 | reset_IBUF       |               11 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[13][31]_i_1_n_0 | reset_IBUF       |               12 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[14][31]_i_1_n_0 | reset_IBUF       |               13 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[15][31]_i_1_n_0 | reset_IBUF       |               18 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[16][31]_i_1_n_0 | reset_IBUF       |               11 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[17][31]_i_1_n_0 | reset_IBUF       |               14 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[18][31]_i_1_n_0 | reset_IBUF       |               12 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[19][31]_i_1_n_0 | reset_IBUF       |               13 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[1][31]_i_1_n_0  | reset_IBUF       |               12 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[20][31]_i_1_n_0 | reset_IBUF       |               14 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[21][31]_i_1_n_0 | reset_IBUF       |               17 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[22][31]_i_1_n_0 | reset_IBUF       |               18 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[23][31]_i_1_n_0 | reset_IBUF       |               22 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[24][31]_i_1_n_0 | reset_IBUF       |               17 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[25][31]_i_1_n_0 | reset_IBUF       |               16 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[26][31]_i_1_n_0 | reset_IBUF       |               14 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[27][31]_i_1_n_0 | reset_IBUF       |               16 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[28][31]_i_1_n_0 | reset_IBUF       |               18 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[29][31]_i_1_n_0 | reset_IBUF       |               20 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[2][31]_i_1_n_0  | reset_IBUF       |               14 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[30][31]_i_1_n_0 | reset_IBUF       |               19 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[3][31]_i_1_n_0  | reset_IBUF       |               12 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[4][31]_i_1_n_0  | reset_IBUF       |               17 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[5][31]_i_1_n_0  | reset_IBUF       |               14 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[6][31]_i_1_n_0  | reset_IBUF       |               20 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[7][31]_i_1_n_0  | reset_IBUF       |               21 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[8][31]_i_1_n_0  | reset_IBUF       |               11 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/sccpu/cpu_ref/array_reg[9][31]_i_1_n_0  | reset_IBUF       |               18 |             32 |
+|  clk_cpu_BUFG                                      | my_sccomp_dataflow/dmem/D_mem_reg_0_31_0_0_i_2_n_0         |                  |                8 |             32 |
+| ~clk_cpu_BUFG                                      |                                                            | reset_IBUF       |               18 |             32 |
+|  clk_in_IBUF_BUFG                                  |                                                            | reset_IBUF       |               26 |             86 |
++----------------------------------------------------+------------------------------------------------------------+------------------+------------------+----------------+
+
+

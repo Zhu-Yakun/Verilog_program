@@ -1,0 +1,30 @@
+# do {Top_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 00:22:27 on Jan 14,2024
+# vlog -64 -incr -work xil_defaultlib ../../../complex_work.srcs/sources_1/new/Vga_display.v ../../../complex_work.srcs/sources_1/new/LED.v ../../../complex_work.srcs/sources_1/new/keyboard.v ../../../complex_work.srcs/sources_1/new/game.v ../../../complex_work.srcs/sources_1/new/display7.v ../../../complex_work.srcs/sources_1/new/Divider.v ../../../complex_work.srcs/sources_1/new/top.v 
+# -- Compiling module Vga_display
+# -- Compiling module LED
+# -- Compiling module keyboard
+# -- Compiling module Game
+# -- Compiling module Display
+# -- Compiling module Divider
+# -- Compiling module Top
+# 
+# Top level modules:
+# 	Top
+# End time: 00:22:27 on Jan 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 00:22:27 on Jan 14,2024
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 00:22:27 on Jan 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

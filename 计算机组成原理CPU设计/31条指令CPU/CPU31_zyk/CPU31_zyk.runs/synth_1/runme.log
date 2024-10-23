@@ -1,0 +1,508 @@
+
+*** Running vivado
+    with args -log sccomp_dataflow.vds -m64 -mode batch -messageDb vivado.pb -notrace -source sccomp_dataflow.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source sccomp_dataflow.tcl -notrace
+Command: synth_design -top sccomp_dataflow -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 41064 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 305.941 ; gain = 98.461
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sccomp_dataflow' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/sccomp_dataflow.v:23]
+INFO: [Synth 8-638] synthesizing module 'IPcore' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.runs/synth_1/.Xil/Vivado-29520-LAPTOP-PHQGBIQQ/realtime/IPcore_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'IPcore' (1#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.runs/synth_1/.Xil/Vivado-29520-LAPTOP-PHQGBIQQ/realtime/IPcore_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'DMEM' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/DMEM.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DMEM' (2#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/DMEM.v:23]
+INFO: [Synth 8-638] synthesizing module 'CPU' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/CPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'PCreg' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/PCreg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PCreg' (3#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/PCreg.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (4#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/ALU.v:117]
+	Parameter Addu bound to: 4'b0000 
+	Parameter Add bound to: 4'b0010 
+	Parameter Subu bound to: 4'b0001 
+	Parameter Sub bound to: 4'b0011 
+	Parameter And bound to: 4'b0100 
+	Parameter Or bound to: 4'b0101 
+	Parameter Xor bound to: 4'b0110 
+	Parameter Nor bound to: 4'b0111 
+	Parameter Lui1 bound to: 4'b1000 
+	Parameter Lui2 bound to: 4'b1001 
+	Parameter Slt bound to: 4'b1011 
+	Parameter Sltu bound to: 4'b1010 
+	Parameter Sra bound to: 4'b1100 
+	Parameter Sll bound to: 4'b1110 
+	Parameter Srl bound to: 4'b1101 
+	Parameter bits bound to: 31 - type: integer 
+	Parameter ENABLE bound to: 1 - type: integer 
+	Parameter DISABLE bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ALU' (5#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/ALU.v:117]
+INFO: [Synth 8-638] synthesizing module 'Controller' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/Controller.v:23]
+	Parameter jalWaddr bound to: 31 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'MUX_4X1_32' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:55]
+INFO: [Synth 8-256] done synthesizing module 'MUX_4X1_32' (6#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:55]
+INFO: [Synth 8-638] synthesizing module 'MUX_3X1_5' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:31]
+INFO: [Synth 8-256] done synthesizing module 'MUX_3X1_5' (7#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX_3X1_32' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:39]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:47]
+INFO: [Synth 8-256] done synthesizing module 'MUX_3X1_32' (8#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:39]
+INFO: [Synth 8-256] done synthesizing module 'Controller' (9#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/Controller.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CPU' (10#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/CPU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sccomp_dataflow' (11#1) [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/sccomp_dataflow.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 342.430 ; gain = 134.949
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 342.430 ; gain = 134.949
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'IPcore' instantiated as 'imem' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/sccomp_dataflow.v:48]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivado_projects/CPU31_zyk/CPU31_zyk.runs/synth_1/.Xil/Vivado-29520-LAPTOP-PHQGBIQQ/dcp/IPcore_in_context.xdc] for cell 'imem'
+Finished Parsing XDC File [D:/vivado_projects/CPU31_zyk/CPU31_zyk.runs/synth_1/.Xil/Vivado-29520-LAPTOP-PHQGBIQQ/dcp/IPcore_in_context.xdc] for cell 'imem'
+Parsing XDC File [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/constrs_1/new/icf.xdc]
+Finished Parsing XDC File [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/constrs_1/new/icf.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/constrs_1/new/icf.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sccomp_dataflow_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sccomp_dataflow_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 651.313 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 651.313 ; gain = 443.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 651.313 ; gain = 443.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 651.313 ; gain = 443.832
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "array_reg_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "cpu_BEQ" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_BNE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_J" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_JAL" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_SW" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_LW" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_ADDI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_ANDI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_ORI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_XORI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_SLTI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_SLTIU" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_LUI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpu_ADDIU" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'oZ_reg' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'oZ_reg' [D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/sources_1/new/MUX.v:48]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 651.313 ; gain = 443.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 4     
++---XORs : 
+	   2 Input     33 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 32    
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 80    
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sccomp_dataflow 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module DMEM 
+Detailed RTL Component Info : 
++---RAMs : 
+	             1024 Bit         RAMs := 1     
+Module RegFile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     33 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+Module MUX_4X1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module MUX_3X1_5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      5 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module MUX_3X1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 48    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 651.313 ; gain = 443.832
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_SLTI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_SLTIU" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_LW" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_SW" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_ADDI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_ADDIU" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_LUI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_ANDI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_ORI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_XORI" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sccpu/cpu_CONTROLLER/cpu_JAL" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 651.313 ; gain = 443.832
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 651.313 ; gain = 443.832
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------+----------------+-----------+----------------------+-----------------+
+|Module Name     | RTL Object     | Inference | Size (Depth x Width) | Primitives      | 
++----------------+----------------+-----------+----------------------+-----------------+
+|sccomp_dataflow | dmem/D_mem_reg | Implied   | 32 x 32              | RAM32X1S x 32   | 
++----------------+----------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[4]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[3]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[2]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[1]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rdc/oZ_reg[0]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[31]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[30]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[29]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[28]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[27]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[26]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[25]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[24]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[23]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[22]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[21]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[20]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[19]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[18]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[17]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[16]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[15]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[14]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[13]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[12]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[11]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[10]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[9]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[8]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[7]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[6]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[5]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[4]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[3]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[2]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[1]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_CONTROLLER/MUX_Rd/oZ_reg[0]) is unused and will be removed from module sccomp_dataflow.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:36 . Memory (MB): peak = 651.313 ; gain = 443.832
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:36 . Memory (MB): peak = 651.313 ; gain = 443.832
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:42 . Memory (MB): peak = 651.313 ; gain = 443.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:01:01 . Memory (MB): peak = 739.773 ; gain = 532.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |IPcore        |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |IPcore   |     1|
+|2     |BUFG     |     1|
+|3     |CARRY4   |    64|
+|4     |LUT1     |    69|
+|5     |LUT2     |   221|
+|6     |LUT3     |    69|
+|7     |LUT4     |   141|
+|8     |LUT5     |   142|
+|9     |LUT6     |  1075|
+|10    |MUXF7    |   257|
+|11    |MUXF8    |    71|
+|12    |RAM32X1S |    32|
+|13    |FDCE     |    31|
+|14    |FDPE     |     1|
+|15    |FDRE     |  1024|
+|16    |IBUF     |     2|
+|17    |OBUF     |    64|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------------+-----------+------+
+|      |Instance           |Module     |Cells |
++------+-------------------+-----------+------+
+|1     |top                |           |  3296|
+|2     |  dmem             |DMEM       |    65|
+|3     |  sccpu            |CPU        |  3132|
+|4     |    cpu_CONTROLLER |Controller |    47|
+|5     |    cpu_PC         |PCreg      |   109|
+|6     |    cpu_ref        |RegFile    |  2919|
++------+-------------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 39 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:01:00 . Memory (MB): peak = 759.973 ; gain = 215.012
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:01:07 . Memory (MB): peak = 759.973 ; gain = 552.492
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 98 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'sccomp_dataflow' is not ideal for floorplanning, since the cellview 'RegFile' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 32 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM32X1S => RAM32X1S (RAMS32): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+95 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:01:06 . Memory (MB): peak = 759.973 ; gain = 528.641
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 759.973 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May 23 22:30:37 2024...

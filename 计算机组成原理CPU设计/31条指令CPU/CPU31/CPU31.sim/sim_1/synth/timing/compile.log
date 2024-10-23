@@ -1,0 +1,63 @@
+# do {cpu_tb_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 16:50:59 on May 18,2024
+# vlog -64 -incr -work xil_defaultlib cpu_tb_time_synth.v 
+# -- Compiling module IPcore
+# -- Compiling module RAM32X1S_UNIQ_BASE_
+# -- Compiling module RAM32X1S_HD1
+# -- Compiling module RAM32X1S_HD10
+# -- Compiling module RAM32X1S_HD11
+# -- Compiling module RAM32X1S_HD12
+# -- Compiling module RAM32X1S_HD13
+# -- Compiling module RAM32X1S_HD14
+# -- Compiling module RAM32X1S_HD15
+# -- Compiling module RAM32X1S_HD16
+# -- Compiling module RAM32X1S_HD17
+# -- Compiling module RAM32X1S_HD18
+# -- Compiling module RAM32X1S_HD19
+# -- Compiling module RAM32X1S_HD2
+# -- Compiling module RAM32X1S_HD20
+# -- Compiling module RAM32X1S_HD21
+# -- Compiling module RAM32X1S_HD22
+# -- Compiling module RAM32X1S_HD23
+# -- Compiling module RAM32X1S_HD24
+# -- Compiling module RAM32X1S_HD25
+# -- Compiling module RAM32X1S_HD26
+# -- Compiling module RAM32X1S_HD27
+# -- Compiling module RAM32X1S_HD28
+# -- Compiling module RAM32X1S_HD29
+# -- Compiling module RAM32X1S_HD3
+# -- Compiling module RAM32X1S_HD30
+# -- Compiling module RAM32X1S_HD31
+# -- Compiling module RAM32X1S_HD4
+# -- Compiling module RAM32X1S_HD5
+# -- Compiling module RAM32X1S_HD6
+# -- Compiling module RAM32X1S_HD7
+# -- Compiling module RAM32X1S_HD8
+# -- Compiling module RAM32X1S_HD9
+# -- Compiling module ALU
+# -- Compiling module CPU
+# -- Compiling module Controller
+# -- Compiling module DMEM
+# -- Compiling module Divider
+# -- Compiling module MUX_3X1_32
+# -- Compiling module MUX_3X1_5
+# -- Compiling module PCreg
+# -- Compiling module RegFile
+# -- Compiling module cpu_tb
+# -- Compiling module sccomp_dataflow
+# -- Compiling module IPcore_dist_mem_gen_v8_0_10
+# -- Compiling module IPcore_dist_mem_gen_v8_0_10_synth
+# -- Compiling module IPcore_rom
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	cpu_tb
+# 	glbl
+# End time: 16:51:00 on May 18,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

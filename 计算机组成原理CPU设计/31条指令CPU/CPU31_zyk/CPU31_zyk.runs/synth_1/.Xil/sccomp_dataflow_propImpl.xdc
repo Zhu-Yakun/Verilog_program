@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:D:/vivado_projects/CPU31_zyk/CPU31_zyk.srcs/constrs_1/new/icf.xdc rfile:../../../CPU31_zyk.srcs/constrs_1/new/icf.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E3 [get_ports clk_in]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N17 [get_ports reset]

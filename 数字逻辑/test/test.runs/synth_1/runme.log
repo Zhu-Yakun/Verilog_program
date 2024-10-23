@@ -1,0 +1,443 @@
+
+*** Running vivado
+    with args -log accel.vds -m64 -mode batch -messageDb vivado.pb -notrace -source accel.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source accel.tcl -notrace
+Command: synth_design -top accel -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 54316 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 305.746 ; gain = 98.406
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'accel' [D:/vivado_projects/test/test.srcs/sources_1/new/accel.v:3]
+	Parameter SPI_READ bound to: 8'b00001011 
+	Parameter SPI_WRITE bound to: 8'b00001010 
+	Parameter X_AXIS_REG bound to: 8'b00001000 
+INFO: [Synth 8-638] synthesizing module 'SPI_transmitter' [D:/vivado_projects/test/test.srcs/sources_1/new/SPI_transmitter.v:5]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter START bound to: 4'b0001 
+	Parameter INST_OUT bound to: 4'b0010 
+	Parameter ADDR_OUT bound to: 4'b0011 
+	Parameter WRITE_DATA bound to: 4'b0100 
+	Parameter READ_DATA bound to: 4'b0101 
+	Parameter ENDING bound to: 4'b0110 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado_projects/test/test.srcs/sources_1/new/SPI_transmitter.v:89]
+INFO: [Synth 8-256] done synthesizing module 'SPI_transmitter' (1#1) [D:/vivado_projects/test/test.srcs/sources_1/new/SPI_transmitter.v:5]
+WARNING: [Synth 8-3848] Net LED_INT2 in module/entity accel does not have driver. [D:/vivado_projects/test/test.srcs/sources_1/new/accel.v:7]
+INFO: [Synth 8-256] done synthesizing module 'accel' (2#1) [D:/vivado_projects/test/test.srcs/sources_1/new/accel.v:3]
+WARNING: [Synth 8-3331] design accel has unconnected port LED_INT2
+WARNING: [Synth 8-3331] design accel has unconnected port ACL_INT1
+WARNING: [Synth 8-3331] design accel has unconnected port ACL_INT2
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 342.285 ; gain = 134.945
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 342.285 ; gain = 134.945
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivado_projects/test/test.srcs/constrs_1/new/test_xdc.xdc]
+Finished Parsing XDC File [D:/vivado_projects/test/test.srcs/constrs_1/new/test_xdc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivado_projects/test/test.srcs/constrs_1/new/test_xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/accel_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/accel_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 641.633 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'SPI_transmitter'
+INFO: [Synth 8-5544] ROM "SCLK_posedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_posedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_posedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_posedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_posedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_posedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "SCLK_negedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "SCLK_negedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "SCLK_negedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "SCLK_negedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "SCLK_negedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "SCLK_negedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "SCLK_negedge" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                             0000
+                   START |                              001 |                             0001
+                INST_OUT |                              010 |                             0010
+                ADDR_OUT |                              011 |                             0011
+               READ_DATA |                              100 |                             0101
+              WRITE_DATA |                              101 |                             0100
+                  ENDING |                              110 |                             0110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'SPI_transmitter'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+	   7 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module accel 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module SPI_transmitter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 21    
+	   7 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design accel has unconnected port LED_INT2
+WARNING: [Synth 8-3331] design accel has unconnected port ACL_INT1
+WARNING: [Synth 8-3331] design accel has unconnected port ACL_INT2
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 641.633 ; gain = 434.293
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_dout_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_reg_addr_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\SPI_inst_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_dout_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_reg_addr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\SPI_inst_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_dout_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_reg_addr_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_inst_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_dout_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\SPI_reg_addr_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\SPI_inst_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (SPI_rdh_wrl_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_dout_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_reg_addr_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_inst_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_dout_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_reg_addr_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_inst_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_dout_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_reg_addr_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_inst_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_dout_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_reg_addr_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_inst_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (SPI_reg_addr_reg[7]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_reg_addr_reg[6]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_reg_addr_reg[5]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_reg_addr_reg[4]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_reg_addr_reg[3]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_reg_addr_reg[2]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_reg_addr_reg[1]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_reg_addr_reg[0]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_dout_reg[7]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_dout_reg[6]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_dout_reg[5]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_dout_reg[4]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_dout_reg[3]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_dout_reg[2]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_dout_reg[1]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_dout_reg[0]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/din_reg[6]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/din_reg[5]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/din_reg[4]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/din_reg[3]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/din_reg[2]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/din_reg[1]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/din_reg[0]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_inst_reg[7]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_inst_reg[6]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_inst_reg[5]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_inst_reg[4]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_inst_reg[3]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_inst_reg[2]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_inst_reg[1]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_inst_reg[0]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_rdh_wrl_reg) is unused and will be removed from module accel.
+INFO: [Synth 8-3886] merging instance 'i_6/SPI_transmitter/SCLK_count_reg[4]' (FDC) to 'i_6/SPI_transmitter/SCLK_count_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_6/SPI_transmitter/SCLK_count_reg[7]' (FDC) to 'i_6/SPI_transmitter/SCLK_count_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_6/SPI_transmitter/SCLK_count_reg[5]' (FDC) to 'i_6/SPI_transmitter/SCLK_count_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_6/\SPI_transmitter/SCLK_count_reg[6] )
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/SCLK_count_reg[7]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/SCLK_count_reg[6]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/SCLK_count_reg[5]) is unused and will be removed from module accel.
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/SCLK_count_reg[4]) is unused and will be removed from module accel.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 641.633 ; gain = 434.293
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_transmitter/MOSI_count_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (SPI_transmitter/MOSI_count_reg[3]) is unused and will be removed from module accel.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                        | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|accel       | SPI_transmitter/MISO_buf_reg[6] | 7      | 1     | NO           | YES                | YES               | 1      | 0       | 
++------------+---------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |LUT1   |     2|
+|3     |LUT2   |     4|
+|4     |LUT3   |     3|
+|5     |LUT4   |    10|
+|6     |LUT5   |     9|
+|7     |LUT6   |    13|
+|8     |SRL16E |     1|
+|9     |FDCE   |    10|
+|10    |FDRE   |    23|
+|11    |IBUF   |     3|
+|12    |OBUF   |     4|
+|13    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+----------------+------+
+|      |Instance          |Module          |Cells |
++------+------------------+----------------+------+
+|1     |top               |                |    84|
+|2     |  SPI_transmitter |SPI_transmitter |    73|
++------+------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 641.633 ; gain = 434.293
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 40 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 641.633 ; gain = 114.906
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 641.633 ; gain = 434.293
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+63 Infos, 44 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 641.633 ; gain = 417.113
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 641.633 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 09 17:39:40 2024...

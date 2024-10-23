@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon May 20 18:07:08 2024
+# Process ID: 23324
+# Current directory: D:/vivado_projects/regfile_test/regfile_test.runs/synth_1
+# Command line: vivado.exe -log RegFile.vds -mode batch -messageDb vivado.pb -notrace -source RegFile.tcl
+# Log file: D:/vivado_projects/regfile_test/regfile_test.runs/synth_1/RegFile.vds
+# Journal file: D:/vivado_projects/regfile_test/regfile_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source RegFile.tcl -notrace

@@ -1,0 +1,54 @@
+# do {_246tb_ex10_tb_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap dist_mem_gen_v8_0_10 msim/dist_mem_gen_v8_0_10 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:46:59 on Jul 12,2024
+# vlog -64 -incr -work dist_mem_gen_v8_0_10 ../../../CPU54.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v 
+# -- Compiling module dist_mem_gen_v8_0_10
+# 
+# Top level modules:
+# 	dist_mem_gen_v8_0_10
+# End time: 19:46:59 on Jul 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:46:59 on Jul 12,2024
+# vlog -64 -incr -work xil_defaultlib ../../../CPU54.srcs/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v ../../../CPU54.srcs/sources_1/new/MUL.v ../../../CPU54.srcs/sources_1/new/Controller.v ../../../CPU54.srcs/sources_1/new/Regfile.v ../../../CPU54.srcs/sources_1/new/PC.v ../../../CPU54.srcs/sources_1/new/MUX.v ../../../CPU54.srcs/sources_1/new/HI_LO.v ../../../CPU54.srcs/sources_1/new/DIV.v ../../../CPU54.srcs/sources_1/new/Decoder.v ../../../CPU54.srcs/sources_1/new/CP0.v ../../../CPU54.srcs/sources_1/new/CLZ.v ../../../CPU54.srcs/sources_1/new/ALU.v ../../../CPU54.srcs/sources_1/new/IMEM.v ../../../CPU54.srcs/sources_1/new/DMEM.v ../../../CPU54.srcs/sources_1/new/CPU.v ../../../CPU54.srcs/sources_1/new/sccomp_dataflow.v ../../../CPU54.srcs/sim_1/new/testbench_cpu54_single.v 
+# -- Compiling module dist_mem_gen_1
+# -- Compiling module MUL
+# -- Compiling module Controler
+# -- Compiling module regfile
+# -- Compiling module PC
+# -- Compiling module MUX
+# -- Compiling module HI_LO
+# -- Compiling module DIV
+# -- Compiling module Decoder
+# -- Compiling module CP0
+# -- Compiling module CLZ
+# -- Compiling module ALU
+# -- Compiling module IMEM
+# -- Compiling module DMEM
+# -- Compiling module cpu
+# -- Compiling module sccomp_dataflow
+# -- Compiling module _246tb_ex10_tb
+# 
+# Top level modules:
+# 	_246tb_ex10_tb
+# End time: 19:46:59 on Jul 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:46:59 on Jul 12,2024
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 19:46:59 on Jul 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

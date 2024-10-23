@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/vivado_projects/Divider/Divider.srcs/constrs_1/new/top_xdc.xdc rfile:../../../Divider.srcs/constrs_1/new/top_xdc.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E3 [get_ports I_CLK]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H17 [get_ports O_CLK]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M18 [get_ports rst]

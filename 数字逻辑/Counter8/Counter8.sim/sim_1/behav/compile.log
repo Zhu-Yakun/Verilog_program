@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_projects/Counter8/Counter8.srcs/sources_1/new/Counter8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JK_FF
+INFO: [VRFC 10-311] analyzing module display7
+INFO: [VRFC 10-311] analyzing module Counter8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_projects/Counter8/Counter8.srcs/sources_1/new/Counter8_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter8_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_projects/Counter8/Counter8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

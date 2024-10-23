@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat May 18 10:22:12 2024
+# Process ID: 32636
+# Current directory: D:/vivado_projects/CPU31/CPU31.runs/ip7_synth_1
+# Command line: vivado.exe -log ip7.vds -mode batch -messageDb vivado.pb -notrace -source ip7.tcl
+# Log file: D:/vivado_projects/CPU31/CPU31.runs/ip7_synth_1/ip7.vds
+# Journal file: D:/vivado_projects/CPU31/CPU31.runs/ip7_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ip7.tcl -notrace

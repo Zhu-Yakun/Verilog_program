@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="ip2_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1715929234">
+  <File Type="RDS-PROPCONSTRS" Name="ip2_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="ip2.tcl"/>
+  <File Type="RDS-RDS" Name="ip2.vds"/>
+  <File Type="RDS-UTIL" Name="ip2_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ip2_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ip2.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ip2_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="ip2_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ip2">
+    <File Path="$PSRCDIR/sources_1/ip/ip2/ip2.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ip2"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ip2">
+    <File Path="$PSRCDIR/sources_1/ip/ip2/ip2.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ip2"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Sep 22 15:17:16 2023
+# Process ID: 34688
+# Current directory: D:/vivado_projects/three_state_gates/three_state_gates.runs/synth_1
+# Command line: vivado.exe -log three_state_gates.vds -mode batch -messageDb vivado.pb -notrace -source three_state_gates.tcl
+# Log file: D:/vivado_projects/three_state_gates/three_state_gates.runs/synth_1/three_state_gates.vds
+# Journal file: D:/vivado_projects/three_state_gates/three_state_gates.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source three_state_gates.tcl -notrace

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1695367035">
+  <File Type="OPT-DCP" Name="three_state_gates_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="three_state_gates_route_status.pb"/>
+  <File Type="PA-TCL" Name="three_state_gates.tcl"/>
+  <File Type="RDI-RDI" Name="three_state_gates.vdi"/>
+  <File Type="PWROPT-DRC" Name="three_state_gates_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="three_state_gates_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="three_state_gates_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="three_state_gates_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="three_state_gates_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="three_state_gates.hwdef"/>
+  <File Type="OPT-TIMING" Name="three_state_gates_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="three_state_gates_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="three_state_gates_placed.dcp"/>
+  <File Type="PLACE-IO" Name="three_state_gates_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="three_state_gates_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="three_state_gates_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="three_state_gates_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="three_state_gates_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="three_state_gates_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="three_state_gates_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="three_state_gates_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="three_state_gates_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="three_state_gates_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="three_state_gates_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="three_state_gates_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="three_state_gates_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="three_state_gates_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="three_state_gates_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="three_state_gates_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="three_state_gates_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="three_state_gates_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="three_state_gates.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="three_state_gates_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="three_state_gates_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="three_state_gates_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="three_state_gates_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="three_state_gates_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="three_state_gates_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="three_state_gates_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="three_state_gates_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="three_state_gates_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="three_state_gates_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="three_state_gates_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="three_state_gates_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="three_state_gates_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="three_state_gates_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="three_state_gates_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="three_state_gates.bin"/>
+  <File Type="BITSTR-MSK" Name="three_state_gates.msk"/>
+  <File Type="BITSTR-RBT" Name="three_state_gates.rbt"/>
+  <File Type="BITSTR-NKY" Name="three_state_gates.nky"/>
+  <File Type="BITSTR-BMM" Name="three_state_gates_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="three_state_gates.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="three_state_gates.sysdef"/>
+  <File Type="BG-BGN" Name="three_state_gates.bgn"/>
+  <File Type="BG-DRC" Name="three_state_gates.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/three_state_gates.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/three_state_gates_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="three_state_gates"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/top_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

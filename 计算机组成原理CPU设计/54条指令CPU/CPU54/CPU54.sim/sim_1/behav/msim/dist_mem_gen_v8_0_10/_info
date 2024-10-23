@@ -1,0 +1,30 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/vivado_projects/CPU54/CPU54.sim/sim_1/behav
+vdist_mem_gen_v8_0_10
+!s110 1720784819
+!i10b 1
+!s100 JCVFbaK<U5gBM=L[ab]bT2
+IDKX5mVBo>M<4U:ZaDZ5;N3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1720529403
+8../../../CPU54.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v
+F../../../CPU54.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v
+L0 78
+OP;L;10.4c;61
+r1
+!s85 0
+31
+!s108 1720784819.000000
+!s107 ../../../CPU54.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v|
+!s90 -64|-incr|-work|dist_mem_gen_v8_0_10|../../../CPU54.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v|
+!i113 1
+o-work dist_mem_gen_v8_0_10 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

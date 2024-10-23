@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/vivado_projects/de_selector14/de_selector14.sim/sim_1/behav
+vde_selector14
+Z1 !s110 1697331869
+!i10b 1
+!s100 lN;cLM4lM<RVV;6>mdmKh2
+IVgbOY2NBko04Aj_;9`ebn1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1697300124
+8../../../de_selector14.srcs/sources_1/new/de_selector14.v
+F../../../de_selector14.srcs/sources_1/new/de_selector14.v
+Z3 L0 23
+Z4 OP;L;10.4c;61
+r1
+!s85 0
+31
+Z5 !s108 1697331869.000000
+Z6 !s107 ../../../de_selector14.srcs/sources_1/new/de_selector14_tb.v|../../../de_selector14.srcs/sources_1/new/de_selector14.v|
+Z7 !s90 -64|-incr|-work|xil_defaultlib|../../../de_selector14.srcs/sources_1/new/de_selector14.v|../../../de_selector14.srcs/sources_1/new/de_selector14_tb.v|
+!i113 1
+Z8 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vde_selector14_tb
+R1
+!i10b 1
+!s100 ^6I6D<WSGPF9`lW?lz4a?3
+II;9UUX0Ph6_=FEd@VQh2g0
+R2
+R0
+w1697331763
+8../../../de_selector14.srcs/sources_1/new/de_selector14_tb.v
+F../../../de_selector14.srcs/sources_1/new/de_selector14_tb.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vglbl
+R1
+!i10b 1
+!s100 g=dL3UKAkhNRkQ:7=fPzF1
+IkJ@CGO[n5[_3E=ZkTzmEk2
+R2
+R0
+w1464879896
+8glbl.v
+Fglbl.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+R8

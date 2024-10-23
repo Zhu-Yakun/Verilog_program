@@ -1,0 +1,97 @@
+# do {post_sim_tb_simulate.do}
+# vsim -voptargs=""+acc"" "+transport_int_delays" "+pulse_r/0" "+pulse_int_r/0" -L simprims_ver -L secureip -L xil_defaultlib -lib xil_defaultlib xil_defaultlib.post_sim_tb xil_defaultlib.glbl 
+# Start time: 22:32:04 on May 23,2024
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.post_sim_tb
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading simprims_ver.BUFG
+# Loading simprims_ver.IBUF
+# Loading xil_defaultlib.DMEM
+# Loading xil_defaultlib.RAM32X1S_UNIQ_BASE_
+# Loading simprims_ver.RAMS32
+# Loading simprims_ver.LUT6
+# Loading xil_defaultlib.RAM32X1S_HD1
+# Loading xil_defaultlib.RAM32X1S_HD2
+# Loading xil_defaultlib.RAM32X1S_HD3
+# Loading xil_defaultlib.RAM32X1S_HD4
+# Loading xil_defaultlib.RAM32X1S_HD5
+# Loading xil_defaultlib.RAM32X1S_HD6
+# Loading xil_defaultlib.RAM32X1S_HD7
+# Loading xil_defaultlib.RAM32X1S_HD8
+# Loading xil_defaultlib.RAM32X1S_HD9
+# Loading xil_defaultlib.RAM32X1S_HD10
+# Loading xil_defaultlib.RAM32X1S_HD11
+# Loading xil_defaultlib.RAM32X1S_HD12
+# Loading xil_defaultlib.RAM32X1S_HD13
+# Loading xil_defaultlib.RAM32X1S_HD14
+# Loading xil_defaultlib.RAM32X1S_HD15
+# Loading xil_defaultlib.RAM32X1S_HD16
+# Loading xil_defaultlib.RAM32X1S_HD17
+# Loading xil_defaultlib.RAM32X1S_HD18
+# Loading xil_defaultlib.RAM32X1S_HD19
+# Loading xil_defaultlib.RAM32X1S_HD20
+# Loading xil_defaultlib.RAM32X1S_HD21
+# Loading xil_defaultlib.RAM32X1S_HD22
+# Loading xil_defaultlib.RAM32X1S_HD23
+# Loading xil_defaultlib.RAM32X1S_HD24
+# Loading xil_defaultlib.RAM32X1S_HD25
+# Loading xil_defaultlib.RAM32X1S_HD26
+# Loading xil_defaultlib.RAM32X1S_HD27
+# Loading xil_defaultlib.RAM32X1S_HD28
+# Loading xil_defaultlib.RAM32X1S_HD29
+# Loading xil_defaultlib.RAM32X1S_HD30
+# Loading xil_defaultlib.RAM32X1S_HD31
+# Loading simprims_ver.LUT2
+# Loading xil_defaultlib.IPcore
+# Loading xil_defaultlib.IPcore_dist_mem_gen_v8_0_10
+# Loading simprims_ver.GND
+# Loading xil_defaultlib.IPcore_dist_mem_gen_v8_0_10_synth
+# Loading xil_defaultlib.IPcore_rom
+# Loading simprims_ver.LUT3
+# Loading simprims_ver.MUXF7
+# Loading simprims_ver.LUT4
+# Loading simprims_ver.LUT5
+# Loading simprims_ver.MUXF8
+# Loading simprims_ver.OBUF
+# Loading xil_defaultlib.CPU
+# Loading simprims_ver.CARRY4
+# Loading simprims_ver.LUT1
+# Loading xil_defaultlib.Controller
+# Loading xil_defaultlib.PCreg
+# Loading simprims_ver.FDCE
+# Loading simprims_ver.FDPE
+# Loading xil_defaultlib.RegFile
+# Loading simprims_ver.FDRE
+# Loading xil_defaultlib.glbl
+# SDF 10.4c Compiler 2015.07 Jul 20 2015
+# 
+# Loading instances from post_sim_tb_time_synth.sdf
+# Loading simprims_ver.x_lut2_mux4
+# Loading simprims_ver.x_lut3_mux4
+# Loading simprims_ver.x_lut1_mux2
+# Loading simprims_ver.ffsrce_fdce
+# Loading simprims_ver.ffsrce_fdpe
+# Loading simprims_ver.sffsrce_fdre
+# Loading timing data from post_sim_tb_time_synth.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /post_sim_tb File: ../../../../CPU31_zyk.srcs/sim_1/new/post_sim_tb.v
+# ** Warning: (vsim-3316) No solution possible for some delayed timing check nets. 6304 negative limits were zeroed. Use +ntc_warn for more info.
+#    Time: 0 ps  Iteration: 0  Instance: /post_sim_tb File: ../../../../CPU31_zyk.srcs/sim_1/new/post_sim_tb.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 22:33:16 on May 23,2024, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 1
